@@ -1,0 +1,4874 @@
+.show-on-991 {
+  display: none !important;
+}
+
+.hide-on-991 {
+  display: block !important;
+}
+
+.show-on-767 {
+  display: none !important;
+}
+
+.hide-on-767 {
+  display: block !important;
+}
+
+.show-on-640 {
+  display: none !important;
+}
+
+.hide-on-640 {
+  display: block !important;
+}
+
+.show-on-575 {
+  display: none !important;
+}
+
+.hide-on-575 {
+  display: block !important;
+}
+
+.show-on-425 {
+  display: none !important;
+}
+
+.hide-on-425 {
+  display: block !important;
+}
+
+@media (max-width: 992px) {
+  .login {
+    margin-top: 11rem;
+  }
+}
+
+@media (max-width: 576px) {
+  html {
+    font-size: 50%;
+  }
+}
+
+@media (max-width: 400px) {
+  html {
+    font-size: 40%;
+  }
+}
+
+@media (max-width: 639px) {
+  .invest-margin {
+    margin-left: 29px !important;
+  }
+}
+
+/* choose plan responsive starts*/
+@media (max-width: 1399px) {
+  .choose-plan-card {
+    padding: 1.5rem 0rem;
+    border-radius: 1rem;
+    margin-top: 8rem;
+  }
+
+  /* paln button */
+  .plan-btn a {
+    font-size: 1.5rem;
+    padding: 2rem 9rem;
+  }
+
+  /* myself section start 1399px */
+
+  .myself-card-header h2 {
+    padding-top: 13px;
+    padding-left: 16px;
+    padding-right: 16px;
+    font-size: 26px;
+  }
+
+  .myself-card-header ::after {
+    width: 105%;
+    max-width: 104%;
+  }
+
+  .mayself-heading h3 {
+    font-size: 30px;
+  }
+
+  .invest h5 {
+    font-size: 16px;
+  }
+
+  .circle {
+    width: 26px;
+    height: 26px;
+  }
+
+  /* package section start for 1200px */
+
+  .packege-card-header h2 {
+    padding-top: 3px;
+    padding-left: 18px;
+    font-family: "Lora", serif;
+    font-weight: 600;
+    font-size: 25px;
+    color: #0e1110;
+  }
+
+  .packege-card-header ::after {
+    width: 105%;
+    max-width: 105%;
+  }
+
+  .package-item-bottom h2 {
+    font-size: 24px;
+  }
+
+  /* package section end for 1200px */
+}
+@media (max-width: 1199.99px) {
+  .choose-plan-card {
+    padding: 1.5rem 0rem;
+    border-radius: 1rem;
+    margin-top: 8rem;
+  }
+  .plan-option h2 {
+    font-size: 3rem;
+    line-height: 4rem;
+  }
+
+  .plan-option h3 {
+    font-size: 4rem;
+    line-height: 5rem;
+  }
+  .list-container p {
+    color: #191a15;
+    font-size: 1.2rem;
+  }
+  .list-container:not(:last-child) {
+    margin-bottom: 2.6rem;
+    transition: all 0.4s;
+  }
+  /* paln button */
+  .plan-btn a {
+    font-size: 1.1rem;
+    padding: 1rem 7rem;
+  }
+
+  .review-padding {
+    padding-left: 0 !important;
+  }
+}
+@media (max-width: 991px) {
+  .choose-plan .plan-swiper {
+    overflow: hidden;
+    padding: 40px 10px;
+  }
+  .choose-plan-card {
+    padding: 1.5rem 0rem;
+    border-radius: 1rem;
+    margin-top: 5rem;
+  }
+  .plan-option h2 {
+    font-size: 3rem;
+    line-height: 4rem;
+  }
+
+  .plan-option h3 {
+    font-size: 4rem;
+    line-height: 5rem;
+  }
+  .list-container p {
+    color: #191a15;
+    font-size: 1.2rem;
+  }
+  .list-container:not(:last-child) {
+    margin-bottom: 2.6rem;
+    transition: all 0.4s;
+  }
+  /* paln button */
+  .plan-btn a {
+    font-size: 1rem;
+    padding: 1rem 7rem;
+  }
+  /* active slider */
+  .plan-swiper .swiper-slide-active .choose-plan-card {
+    transform: scale(1.05);
+  }
+
+  .plan-swiper .swiper-slide-active .plan-btn a {
+    background-color: #4ed0b2;
+    color: #fff;
+  }
+  .plan-swiper .swiper-slide-active .plan-hover-img {
+    opacity: 1;
+    /* must be hidden or scroll will come up */
+    visibility: visible;
+  }
+  .plan-swiper .swiper-slide-active .plan-price svg {
+    fill: #fff;
+  }
+  .plan-swiper .swiper-slide-active .plan-option h2 {
+    color: #fff;
+  }
+  .plan-swiper .swiper-slide-active .plan-option h3 {
+    color: #fff;
+  }
+  .plan-swiper .swiper-slide-active .plan-list {
+    border: 0.2rem solid transparent;
+    padding: 3.7rem 2rem 3rem 2.5rem;
+    z-index: 1;
+  }
+}
+@media (max-width: 679px) {
+  .choose-plan .plan-swiper {
+    overflow: hidden;
+    padding: 40px 10px;
+  }
+  .choose-plan-card {
+    padding: 2.5rem 2rem;
+    max-width: 339px;
+    margin: 0 auto;
+    margin-top: 2rem;
+  }
+}
+@media (max-width: 396px) {
+  .choose-plan .plan-swiper {
+    overflow: hidden;
+    padding: 40px 10px;
+  }
+  .plan-swiper .choose-plan-card {
+    transform: scale(0.6);
+  }
+  /* test data */
+  .plan-swiper .swiper-slide-active .plan-list {
+    margin: 0;
+    padding: 2.7rem 1rem 1rem 1rem;
+  }
+  .choose-plan .swiper-slide-active {
+    width: 287px;
+    margin-right: 40px;
+  }
+  .choose-plan {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+  }
+  .plan-btn a {
+    font-size: 1.3rem;
+    padding: 1rem 6rem;
+  }
+  .list-container:nth-child(n) {
+    justify-content: center;
+  }
+}
+@media (max-width: 1880px) {
+  .empower-content-img img {
+    position: absolute;
+    object-fit: cover;
+    top: 8%;
+    margin-left: -45px;
+    width: 43rem;
+  }
+  .empower-left-image {
+    padding-left: 35px;
+  }
+  .empower-margin {
+    margin: 108px 0;
+    padding-left: 1rem;
+    padding-right: 2rem;
+  }
+  .empower-content {
+    height: 740px;
+  }
+
+  .empower-left-image img {
+    object-fit: cover;
+    max-width: 40rem;
+    margin-right: 5rem;
+  }
+  .empower-heading h2 {
+    width: 80%;
+  }
+  .empower-heading p {
+    width: 70%;
+  }
+}
+@media (max-width: 1700px) {
+  .empower-content-img img {
+    position: absolute;
+    object-fit: cover;
+    top: 14%;
+    margin-left: -37px;
+    width: 36rem;
+  }
+
+  .empower-left-image {
+    padding-left: 35px;
+  }
+  .empower-margin {
+    margin: 108px 0;
+    padding-left: 1rem;
+    padding-right: 2rem;
+  }
+  .empower-content {
+    height: 740px;
+  }
+
+  .empower-left-image img {
+    object-fit: cover;
+    max-width: 31rem;
+    margin-right: 5rem;
+  }
+  .empower-heading h2 {
+    width: 80%;
+  }
+  .empower-heading p {
+    width: 70%;
+  }
+}
+@media (max-width: 1580px) {
+  .empower-content-img img {
+    position: absolute;
+    object-fit: cover;
+    top: 14%;
+    margin-left: -37px;
+    width: 36rem;
+  }
+
+  .empower-left-image {
+    padding-left: 35px;
+  }
+  .empower-margin {
+    margin: 108px 0;
+    padding-left: 1rem;
+    padding-right: 2rem;
+  }
+  .empower-content {
+    height: 740px;
+  }
+
+  .empower-left-image img {
+    object-fit: cover;
+    max-width: 31rem;
+    margin-right: 5rem;
+  }
+  .empower-heading h2 {
+    width: 90%;
+  }
+  .empower-heading p {
+    width: 80%;
+  }
+  .blog-bg .swiper-card-img.blog-page-card-img {
+    height: 20.5rem;
+  }
+}
+/* About Us starts */
+
+/* choose plan responsive ends*/
+/* full homepage responsive for max 1380px */
+@media (max-width: 1380px) {
+  .ctg-list ul li a {
+    font-size: 20px;
+    line-height: 1;
+    padding: 20px 25px;
+  }
+  .inner-form-section {
+    padding: 70px;
+  }
+  /* homepage full responsive starts */
+  .header .h1-large {
+    width: 135%;
+  }
+  .right-top-content {
+    right: -7.6rem;
+    top: 8%;
+  }
+  .right-top-content .img-fluid {
+    width: 100%;
+  }
+  .header .text-container p {
+    width: 109%;
+  }
+  .navbar .logo-image img {
+    max-width: 192px;
+  }
+  .navbar.top-nav-collapse .nav-btn .btn {
+    padding: 10px 20px;
+  }
+  .navbar .nav-item .nav-link {
+    font-size: 1.6rem;
+  }
+  .signin-btn {
+    font-size: 1.4rem;
+    line-height: 7.8px;
+  }
+  .start-btn {
+    font-size: 1.4rem;
+    line-height: 1rem;
+  }
+  .header .get-start-btn {
+    font-size: 1.3rem;
+    line-height: 2rem;
+  }
+  .counter-section h2 {
+    font-size: 12rem;
+  }
+  .counter-section p {
+    font-size: 3rem;
+  }
+  .right-content-box p {
+    font-size: 17px;
+    line-height: 159%;
+  }
+  .financial-heading {
+    font-family: "Lora", serif;
+    color: #ffffff;
+    font-size: 50px;
+    line-height: 66px;
+    width: 78%;
+    text-align: center;
+    margin: 0 auto;
+  }
+  .testomonial-heading p {
+    width: 100%;
+    line-height: 2.5rem;
+  }
+  .empower-content-img img {
+    position: absolute;
+    object-fit: cover;
+    top: 20%;
+    margin-left: -37px;
+    width: 30rem;
+  }
+  .empower-left-image {
+    padding-left: 35px;
+  }
+  .empower-margin {
+    margin: 108px 0;
+    padding-left: 1rem;
+    padding-right: 2rem;
+  }
+  .empower-content {
+    height: 740px;
+  }
+
+  .empower-left-image img {
+    object-fit: cover;
+    max-width: 24rem;
+    margin-right: 5rem;
+  }
+  .empower-heading h2 {
+    width: 100%;
+  }
+  .empower-heading p {
+    width: 97%;
+  }
+  /* homopage full responsive ends */
+}
+/* full homepage,blog-page,about-us responsive for max 1200px */
+@media (max-width: 1200px) {
+  /* about us page starts */
+  .about-me {
+    margin-top: -31rem;
+  }
+  .about-header .img-fluid {
+    max-width: 85%;
+  }
+
+  .financial-advisor h2 {
+    width: 47rem;
+  }
+  .financial-advisor p {
+    font-size: 1.6rem;
+    line-height: 3.4rem;
+    max-width: 48rem;
+  }
+  .achievements-center p {
+    width: 24rem;
+  }
+  .about-testimonial .testomonial-heading p {
+    width: 80%;
+    font-size: 1.6rem;
+  }
+  /* about us page ends */
+
+  /* blog page starts */
+  .blog-bg .swiper-card-img.blog-page-card-img {
+    height: 16.5rem;
+  }
+  .blog-bg .blog-card,
+  .swiper-card {
+    min-height: 480px;
+  }
+  /* blog page ends  */
+  .container-lg {
+    max-width: 100%;
+  }
+
+  .navbar .logo-image img {
+    max-width: 300px;
+  }
+
+  .nav-btn .btn {
+    padding: 1rem;
+  }
+
+  .navbar {
+    padding: 25px 0;
+  }
+
+  .nav-btn {
+    gap: 10px;
+  }
+
+  .navbar .navbar-nav {
+    margin-right: 2rem;
+  }
+  /* homepage full responsive starts */
+  .navbar.top-nav-collapse .nav-item .nav-link {
+    font-size: 1.3rem;
+  }
+  .header .h1-large {
+    width: 135%;
+  }
+  .right-top-content {
+    right: -7.6rem;
+    top: 4%;
+  }
+  .right-top-content .img-fluid {
+    width: 95%;
+  }
+  .header .text-container p {
+    width: 109%;
+  }
+  .navbar .logo-image img {
+    max-width: 192px;
+  }
+  .navbar.top-nav-collapse .nav-btn .btn {
+    padding: 10px 20px;
+  }
+  .navbar .nav-item .nav-link {
+    font-size: 1.4rem;
+  }
+  .signin-btn {
+    font-size: 1.4rem;
+    line-height: 7.8px;
+  }
+  .start-btn {
+    font-size: 1.4rem;
+    line-height: 1rem;
+  }
+  .header .get-start-btn {
+    font-size: 1.3rem;
+    line-height: 2rem;
+  }
+  .right-content-box {
+    padding-left: 2rem;
+  }
+  .counter-section h2 {
+    font-size: 12rem;
+  }
+  .counter-section p {
+    font-size: 3rem;
+  }
+  .financial-heading {
+    font-family: "Lora", serif;
+    color: #ffffff;
+    font-size: 50px;
+    line-height: 66px;
+    width: 78%;
+    text-align: center;
+    margin: 0 auto;
+  }
+  .testomonial-heading p {
+    width: 100%;
+    line-height: 2.5rem;
+  }
+  .social-icons .icon-btn {
+    height: 30px;
+  }
+  .empower-section #light {
+    top: 50%;
+    left: 50vw;
+  }
+  /* homopage full responsive ends */
+  /* Full bolg-details start max width 1200px */
+  .about-title {
+    font-size: 3rem;
+    line-height: 2rem;
+  }
+
+  .children-section {
+    padding-top: 55px;
+  }
+
+  .children-heading h2 {
+    font-size: 4rem;
+    line-height: 3rem;
+    margin-bottom: 4rem;
+  }
+
+  .challege-content p {
+    line-height: 3rem;
+  }
+
+  .literacy-content p {
+    line-height: 3.4rem;
+    width: 100%;
+  }
+
+  .acount-content p {
+    line-height: 3.4rem;
+    width: 100%;
+  }
+
+  .planning-content p {
+    line-height: 3.4rem;
+    width: 100%;
+  }
+
+  .from-left {
+    padding: 18px 10px;
+  }
+
+  .from-right {
+    height: 293px;
+  }
+
+  /* Full blog details end max width 1200 */
+
+  /* Full blog-details start width 1200 */
+  .gaim-plan-section {
+    padding-top: 50px;
+  }
+
+  .gaim-plan-img img {
+    max-width: 80%;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .gaim-plan-heading h2 {
+    font-size: 3rem;
+    line-height: 4rem;
+  }
+
+  .gain-plan-list {
+    margin-top: 0.5rem;
+  }
+
+  .gain-plan-list p {
+    font-size: 1.7rem;
+  }
+
+  .recommendation-heading h2 {
+    font-size: 3rem;
+    line-height: 3rem;
+  }
+
+  .recommendation-list {
+    margin-top: 0.5rem;
+  }
+
+  .recommendation-list p {
+    font-size: 1.7rem;
+  }
+
+  .recommendation-image img {
+    max-width: 80%;
+    height: auto;
+  }
+
+  .question-section {
+    padding-top: 54px;
+    padding-bottom: 36px;
+  }
+
+  .question-header h2 {
+    font-size: 3rem;
+    line-height: 3rem;
+    margin-bottom: 2rem;
+  }
+
+  .question-header p {
+    font-size: 1.6rem;
+    width: 69%;
+    margin-bottom: 2.8rem;
+  }
+
+  .accordion-button:not(.collapsed) {
+    font-size: 1.6rem;
+    line-height: 2.6rem;
+  }
+
+  .accordion-button {
+    font-size: 1.6rem;
+    line-height: 2.6rem;
+  }
+
+  .podcast-section {
+    padding-top: 1px;
+    padding-bottom: 70px;
+  }
+
+  .h2-large {
+    font-size: 28px;
+  }
+  .poadcast-img {
+    margin-top: 5rem;
+  }
+
+  .poadcast-img img {
+    max-width: 80%;
+    height: auto;
+  }
+
+  /* Full blog-details end width 1200 */
+
+  /* myself section start 1200px */
+
+  .myself-card-header h2 {
+    padding-top: 13px;
+    padding-left: 16px;
+    padding-right: 16px;
+    font-size: 26px;
+  }
+
+  .myself-card-header ::after {
+    width: 104%;
+    max-width: 104%;
+  }
+
+  .mayself-heading h3 {
+    font-size: 30px;
+  }
+
+  .invest h5 {
+    font-size: 16px;
+  }
+
+  .circle {
+    width: 26px;
+    height: 26px;
+  }
+
+  /* package section start for 1200px */
+
+  .packege-card-header h2 {
+    padding-top: 3px;
+    padding-left: 18px;
+    font-family: "Lora", serif;
+    font-weight: 600;
+    font-size: 25px;
+    color: #0e1110;
+  }
+
+  .packege-card-header ::after {
+    width: 104%;
+    max-width: 104%;
+  }
+
+  .package-item-bottom h2 {
+    font-size: 24px;
+  }
+
+  /* package section end for 1200px */
+
+  /* myself secton end for 1200px */
+
+  /* payment section start */
+  .submit-btn button {
+    padding: 18px 42px;
+  }
+
+  /* payment section end */
+}
+
+/* full homepage responsive */
+@media (min-width: 992px) and (max-width: 1200px) {
+  #empower {
+    padding-top: 80px;
+    padding-bottom: 80px;
+  }
+
+  .empower-left-image {
+    padding-left: 35px;
+  }
+
+  .empower-heading h2 {
+    font-size: 36px;
+    line-height: 51px;
+  }
+  .empower-heading p {
+    width: 100%;
+  }
+
+  .empower-btn {
+    margin-top: 25px;
+  }
+}
+/* full homepage responsive for max 1024px */
+@media (max-width: 1024px) {
+}
+/* full homepage,blog-page responsive for max 991px */
+@media (max-width: 991.99px) {
+  .show-on-991 {
+    display: block !important;
+  }
+
+  .hide-on-991 {
+    display: none !important;
+  }
+
+  .offcanvas-collapse {
+    top: 66px;
+  }
+
+  .top-nav-collapse .offcanvas-collapse {
+    top: 70px;
+  }
+
+  .standing-card-box .card-img-box {
+    margin: 30px auto 15px;
+    height: auto !important;
+  }
+
+  .top-btn-box {
+    display: block;
+  }
+
+  .menu-list-btn {
+    display: none;
+  }
+
+  .text-container,
+  .header .text-container {
+    max-width: 100%;
+    margin: 0 auto;
+  }
+
+  .mobile-img {
+    display: block;
+    margin-bottom: 30px;
+  }
+
+  .pc-img {
+    display: none;
+  }
+
+  .blog-content-box,
+  .latest-blog-post,
+  .standing-card-box {
+    padding-bottom: 50px;
+  }
+
+  section,
+  .section,
+  .stand-out-section,
+  .stunning-img-section,
+  .chatgpt-section,
+  .body-section {
+    padding: 70px 20px;
+  }
+
+  .navbar {
+    padding: 0.5rem 0;
+  }
+
+  .inner-form-section {
+    padding: 50px;
+  }
+
+  .section.breadcumd-section {
+    padding: 80px 20px 20px;
+  }
+
+  .inner-about-content-box {
+    padding-bottom: 60px;
+  }
+
+  .footer-top {
+    padding-top: 0;
+  }
+
+  .footer-section {
+    padding-bottom: 0 !important;
+  }
+
+  .about-mazicai-section .section-title h2,
+  .stand-out-section .section-title h2,
+  .left-content h2 {
+    font-size: 36px;
+    line-height: 1.4;
+  }
+
+  .h2-large,
+  .right-content-box h2 {
+    font-size: 32px;
+  }
+
+  .navbar .nav-item .nav-link {
+    color: #191e47;
+  }
+
+  .package-section .section-title {
+    flex-direction: column;
+  }
+
+  .package-price-box {
+    padding-bottom: 50px;
+  }
+
+  .package-price-box .row {
+    gap: 30px 0;
+  }
+
+  .about-right-content {
+    margin: 0;
+  }
+
+  .left-contact-form {
+    margin-bottom: 30px;
+  }
+
+  .header .h1-large {
+    font-size: 46px;
+  }
+
+  .ctg-list ul li a {
+    font-size: 1rem;
+    padding: 1rem 20px;
+  }
+
+  .search-box {
+    padding-bottom: 30px;
+  }
+  /* homepage responsive starts */
+  .header {
+    background-position: top left, 123% 128%;
+  }
+  .left-top-content {
+    width: 100%;
+  }
+  .header .h1-large {
+    font-size: 3.4rem;
+    max-width: 50.3rem;
+    line-height: 4.4rem;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  p,
+  .p-large {
+    font-size: 1.6rem;
+    line-height: 2.8rem;
+  }
+  .get-start-btn {
+    font-size: 1.3rem;
+    line-height: 1.4rem;
+    padding: 1.8rem 1.2rem;
+  }
+  .header {
+    padding-top: 12.3rem !important;
+    padding-bottom: 2.3rem !important;
+  }
+  .header .text-container p {
+    max-width: 61.2rem;
+    width: 100%;
+    margin: 0 auto;
+    margin-bottom: 1.3rem;
+  }
+  .right-content-box {
+    text-align: center;
+  }
+  .right-content-box h2 {
+    font-size: 2.3rem;
+  }
+  .right-content-box p {
+    font-size: 16px;
+    line-height: 166%;
+  }
+  .decoration-star {
+    z-index: -1;
+  }
+  .service-content-box {
+    text-align: center;
+    margin: auto;
+  }
+  .service-card-body h4,
+  .service-card-body h4 a {
+    line-height: 17px;
+    margin-bottom: 0;
+  }
+  .service-card-body p {
+    min-height: 0;
+  }
+  .down-arrow-img {
+    max-width: 64px;
+    right: 89px;
+  }
+  section,
+  .section,
+  .stand-out-section,
+  .stunning-img-section,
+  .chatgpt-section,
+  .body-section {
+    padding: 50px 11px 0px;
+  }
+  .service-content h2 {
+    font-size: 23px;
+    letter-spacing: 0.02em;
+    margin-bottom: 0;
+  }
+  .mobile-img {
+    margin-bottom: 10px;
+  }
+  .blog-details .blog-img,
+  .section-title {
+    margin-bottom: 50px;
+  }
+  .following-section .section-title h2 {
+    margin-bottom: 2rem;
+  }
+  .following-section .section-title p {
+    width: 78%;
+  }
+  .setp-icons span {
+    max-width: 66px;
+    height: 66px;
+    font-size: 34px;
+  }
+
+  .choose-plan {
+    padding: 0;
+    margin-top: 5rem;
+  }
+  .choose-plan-title h2 {
+    width: 31rem;
+  }
+  .testomonial-content {
+    background-color: #4ac7aa;
+    text-align: center;
+    padding: 30px 0;
+  }
+  .carousel-inner img {
+    width: 45px;
+  }
+  .testomonial-heading h5 {
+    font-size: 19px;
+    margin-top: 20px;
+    line-height: 31px;
+  }
+  .testomonial-heading p {
+    width: 90%;
+  }
+  .testomonial-left-image h6 {
+    font-size: 1.6rem;
+    letter-spacing: 1px;
+  }
+  .testomonial-left-image p {
+    width: 38rem;
+    margin: 0 auto;
+  }
+
+  .counter-section {
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+  .counter-section h2 {
+    font-size: 13rem;
+    line-height: 16rem;
+  }
+  .counter-section p {
+    font-size: 2.3rem;
+    left: 53%;
+  }
+  .counter-section .project::after {
+    height: 0;
+  }
+  .counter-section .project::before {
+    height: 0;
+  }
+  .counter-section .offices::before {
+    height: 0;
+  }
+  #financial {
+    top: 5rem;
+  }
+  #financial {
+    background-position: center center;
+  }
+  .financial-heading {
+    font-size: 3.1rem;
+    line-height: 5rem;
+    width: 75%;
+    padding: 0 1rem;
+  }
+  .blog-section {
+    margin: 7rem 0;
+  }
+  /* empower section stats */
+  .empower-section #light {
+    top: 50%;
+    left: 80vw;
+  }
+  #empower {
+    padding-bottom: 47px;
+    padding-left: 35px;
+    background-image: none;
+  }
+  .empower-section .img-fluid {
+    max-width: 92%;
+  }
+  .empower-content {
+    text-align: center;
+  }
+  .empower-left-image {
+    padding-left: 0;
+    position: relative;
+  }
+  .empower-left-image img {
+    object-fit: cover;
+    max-width: 23vw;
+    position: absolute;
+    top: 5%;
+    left: 0%;
+    z-index: 1;
+    margin-left: 21rem;
+  }
+  .empower-content-img img {
+    position: absolute;
+    object-fit: cover;
+    top: 3%;
+    left: 57%;
+    width: 25vw;
+  }
+  .empower-heading {
+    margin-top: 5rem;
+  }
+  .empower-heading h2 {
+    font-size: 2.8rem;
+    width: 100%;
+    line-height: 5rem;
+    margin-top: 2.5rem;
+    margin-bottom: 0;
+  }
+  .empower-margin {
+    padding: 4rem 2rem;
+    margin-bottom: 0;
+  }
+  .empower-heading p {
+    font-size: 1.7rem;
+    line-height: 3.3rem;
+    width: 59rem;
+    margin-top: 12px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .empower-lists p {
+    font-size: 1.5rem;
+    line-height: 3.5rem;
+    font-weight: 500;
+  }
+  .empower-btn {
+    margin-top: 1.5rem;
+  }
+
+  .empower-wrapper {
+    padding-left: 0px;
+  }
+
+  .empower-btn .start-btn {
+    font-size: 13px;
+    line-height: 8px;
+  }
+  .margin-sm {
+    margin-top: 3rem;
+  }
+  .footer-left-content p {
+    font-size: 1.6rem;
+    margin-bottom: 3rem;
+    max-width: 92%;
+  }
+  .footer-left-content p,
+  .footer-left-content,
+  .footer-menu {
+    margin-bottom: 3.8rem;
+  }
+  .footer-left-content img {
+    width: 76%;
+    margin-bottom: 20px;
+  }
+  /* full homepage responsive ends */
+  /* blog page starts */
+  .blog-us {
+    margin-top: 65px;
+  }
+
+  .blog-bg .blog-card,
+  .swiper-card {
+    grid-column: 1/3;
+    min-height: 480px;
+  }
+  .blog-bg .swiper-card-img.blog-page-card-img {
+    height: 23.5rem;
+  }
+  .blog-container {
+    column-gap: 0;
+  }
+  .blog-page-cards {
+    justify-items: center;
+  }
+  .blog-search .search {
+    padding: 2rem 2rem 4rem 2rem;
+  }
+  .blog-aside-h3 {
+    font-size: 2rem;
+    line-height: 2rem;
+  }
+  .search-field input {
+    padding: 0.2rem 6rem 0.2rem 2rem;
+    font-size: 1.4rem;
+  }
+  .search-field input::placeholder {
+    font-size: 1.3rem;
+  }
+  .search-field i {
+    padding: 0.55rem 2rem;
+    font-size: 16px;
+  }
+  .blog-catagory ul {
+    padding-left: 0;
+  }
+  .blog-catagory {
+    padding: 2rem;
+  }
+  .category-list {
+    font-size: 1.5rem;
+  }
+  .blog-pagination {
+    margin-left: 13em;
+  }
+  .section.newsletter {
+    padding: 50px 11px 50px;
+  }
+  .newsletter-content h2 {
+    font-size: 3rem;
+  }
+  .subs-email {
+    width: 40%;
+  }
+  .subs-btn {
+    width: 25%;
+  }
+  /* blog page ends  */
+  /* about us page starts */
+  .about-us {
+    margin-top: 64px;
+  }
+  .details-top {
+    width: 56rem;
+  }
+  .financial-advisor p {
+    font-size: 1.4rem;
+    max-width: 36rem;
+  }
+  .about-me {
+    margin-top: -24rem;
+  }
+  .financial-advisor h2 {
+    width: 37rem;
+    font-size: 2.3rem;
+  }
+  .financial-advisor a {
+    font-size: 14px;
+    line-height: 24px;
+    padding: 11px 37px;
+    margin-top: 4px;
+  }
+  .about-header .img-fluid {
+    max-width: 90%;
+  }
+  .achievements-center p {
+    width: 24rem;
+  }
+  .about-testimonial .testomonial-heading p {
+    width: 80%;
+    font-size: 1.6rem;
+  }
+  .about-me-title p {
+    width: 73.6rem;
+  }
+  .about-testimonial .testomonial-content {
+    background-color: #f7f7f7;
+    text-align: center;
+    padding: 30px 0;
+  }
+
+  /* about us page ends */
+  /* Full bolg-details start max width 991px */
+  .about-title {
+    font-size: 3rem;
+    line-height: 2rem;
+  }
+
+  .children-section {
+    padding-top: 55px;
+  }
+
+  .children-heading h2 {
+    font-size: 4rem;
+    line-height: 3rem;
+    margin-bottom: 4rem;
+  }
+
+  .challege-content p {
+    line-height: 3rem;
+  }
+
+  .literacy-content p {
+    line-height: 3.4rem;
+    width: 100%;
+  }
+
+  .acount-content p {
+    line-height: 3.4rem;
+    width: 100%;
+  }
+
+  .planning-content p {
+    line-height: 3.4rem;
+    width: 100%;
+  }
+
+  .author-section {
+    margin-top: 0rem;
+    padding: 0px 20px 0px;
+  }
+
+  .author-heading h2 {
+    margin-top: 2rem;
+  }
+
+  .social-icons {
+    gap: 20px;
+  }
+
+  .author-content p {
+    line-height: 3rem;
+  }
+
+  .comment-section {
+    margin-top: 5rem;
+    padding: 0px 20px 0px;
+  }
+
+  .comment-heading h2 {
+    margin-bottom: 3rem;
+  }
+
+  .from-left {
+    margin-bottom: 2.8rem;
+    padding: 19px 10px;
+  }
+
+  .from-right {
+    height: 218px;
+  }
+
+  .comment-btn button {
+    padding: 18px 35px;
+    margin-top: 2rem;
+    margin-left: 0;
+  }
+
+  /* Full bolg-details end max width 991px */
+
+  /* Full about gain plan start max width 991px */
+  .podcast-section #light {
+    left: 85vw;
+  }
+  .gaim-plan-section {
+    padding-top: 50px;
+    padding: 50px 20px 35px;
+  }
+
+  .gaim-plan-img img {
+    max-width: 73%;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .gaim-plan-heading h2 {
+    font-size: 3rem;
+    line-height: 4rem;
+    margin-top: 4rem;
+  }
+
+  .gain-plan-list {
+    margin-top: 1.4rem;
+  }
+
+  .gain-plan-list p {
+    font-size: 1.7rem;
+  }
+
+  .recommendation-heading h2 {
+    font-size: 3rem;
+    line-height: 3rem;
+  }
+
+  .recommendation-section {
+    padding-top: 1px;
+  }
+
+  .recommendation-list {
+    margin-top: 1.4rem;
+  }
+
+  .recommendation-list p {
+    font-size: 1.7rem;
+  }
+
+  .recommendation-image {
+    margin-top: 4rem;
+  }
+
+  .recommendation-image img {
+    max-width: 73%;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .question-section {
+    padding-top: 2px;
+    padding-bottom: 36px;
+  }
+
+  .question-header h2 {
+    font-size: 3rem;
+    line-height: 3rem;
+    margin-bottom: 2rem;
+  }
+
+  .question-header p {
+    font-size: 1.6rem;
+    width: 100%;
+    margin-bottom: 2.8rem;
+  }
+
+  .accordion-button:not(.collapsed) {
+    font-size: 1.6rem;
+    line-height: 2.6rem;
+  }
+
+  .accordion-button {
+    font-size: 1.6rem;
+    line-height: 2.6rem;
+  }
+
+  .podcast-section {
+    padding-top: 1px;
+    padding-bottom: 70px;
+  }
+
+  .h2-large {
+    font-size: 28px;
+  }
+  .poadcast-img {
+    margin-top: 5rem;
+  }
+
+  .poadcast-img img {
+    max-width: 73%;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  /* Full about gain plan end max width 991 px */
+
+  /* my self start max width 991px */
+
+  .myself-card-header h2 {
+    padding-top: 6px;
+    padding-left: 0px;
+    padding-right: 0px;
+    font-size: 22px;
+  }
+
+  .myself-card-header ::after {
+    width: 107%;
+    max-width: 106%;
+  }
+
+  .myslef-image {
+    display: flex;
+    justify-content: center;
+  }
+
+  .mayself-heading h3 {
+    font-size: 28px;
+    line-height: 45px;
+    margin-top: 14px;
+    text-align: center;
+  }
+
+  .mayself-heading p {
+    text-align: center;
+  }
+
+  .myself-content h4 {
+    text-align: center;
+  }
+
+  .myself-content p {
+    text-align: center;
+  }
+
+  .myself-pragarp p {
+    text-align: center;
+  }
+
+  .invest h5 {
+    font-size: 16px;
+  }
+
+  .circle {
+    width: 25px;
+    height: 25px;
+  }
+
+  .invest-margin {
+    margin-left: 27px;
+  }
+
+  .review-padding {
+    margin-left: 3rem;
+  }
+
+  /* my self end max width 991px  */
+
+  /* package section start */
+
+  .packege-card-header h2 {
+    padding-top: 10px;
+    padding-left: 10px;
+    font-size: 24px;
+  }
+
+  .packege-card-header ::after {
+    width: 107%;
+    max-width: 109%;
+  }
+
+  .package-item-bottom h2 {
+    font-size: 22px;
+  }
+
+  /* package section edn */
+
+  /* payment section start  */
+
+  .main-payment {
+    padding-bottom: 12px;
+  }
+
+  .payment-padding {
+    /* padding-left: 0 !important; */
+    padding: 0 15px !important;
+  }
+
+  /* payment section end  */
+}
+
+/* full homepage responsive for max 880px */
+@media (max-width: 880px) {
+  /* empower section stats */
+  #empower {
+    padding-left: 18px;
+    padding-top: 29px;
+    margin-top: 6rem;
+    background-image: none;
+  }
+  .empower-heading {
+    margin-top: 13rem;
+  }
+  .empower-section #light {
+    top: 50%;
+    left: 86vw;
+  }
+  .empower-content {
+    text-align: center;
+  }
+  .empower-left-image {
+    padding-left: 0;
+    position: relative;
+  }
+  .empower-left-image img {
+    object-fit: cover;
+    max-width: 21vw;
+    position: absolute;
+    top: 5%;
+    left: 0%;
+    z-index: 1;
+    margin-left: 20rem;
+  }
+  .empower-content-img img {
+    position: absolute;
+    object-fit: cover;
+    top: 3%;
+    left: 58%;
+    width: 23vw;
+  }
+  .empower-heading h2 {
+    font-size: 2.8rem;
+    width: 100%;
+    line-height: 5rem;
+    margin-top: -6.5rem;
+    margin-bottom: 0;
+  }
+  .empower-margin {
+    padding: 4rem 2rem;
+    margin-bottom: 0;
+  }
+  .empower-heading p {
+    font-size: 1.7rem;
+    line-height: 3.3rem;
+    width: 88%;
+    margin-top: 12px;
+  }
+  .empower-lists p {
+    font-size: 1.5rem;
+    line-height: 3.5rem;
+    font-weight: 500;
+  }
+  .empower-btn {
+    margin-top: 1.5rem;
+  }
+  .empower-btn .start-btn {
+    font-size: 13px;
+    line-height: 8px;
+  }
+  .choose-plan {
+    margin-top: 5rem;
+  }
+  /* empower section ends */
+  /* Full bolg-details start max width 880px */
+
+  .about-title {
+    font-size: 3rem;
+    line-height: 4rem;
+  }
+
+  .children-section {
+    padding-top: 55px;
+  }
+
+  .children-heading h2 {
+    font-size: 4rem;
+    line-height: 3rem;
+    margin-bottom: 4rem;
+  }
+
+  .challege-content p {
+    line-height: 3rem;
+  }
+
+  .literacy-content p {
+    line-height: 3.4rem;
+    width: 100%;
+  }
+
+  .acount-content p {
+    line-height: 3.4rem;
+    width: 100%;
+  }
+
+  .planning-content p {
+    line-height: 3.4rem;
+    width: 100%;
+  }
+
+  .author-section {
+    margin-top: 0rem;
+    padding: 0px 20px 0px;
+  }
+
+  .author-heading h2 {
+    margin-top: 2rem;
+  }
+
+  .social-icons {
+    gap: 17px;
+  }
+
+  .author-content p {
+    line-height: 3rem;
+  }
+
+  .comment-section {
+    margin-top: 5rem;
+    padding: 0px 20px 0px;
+  }
+
+  .comment-heading h2 {
+    margin-bottom: 3rem;
+  }
+
+  .from-left {
+    margin-bottom: 2.8rem;
+    padding: 19px 10px;
+  }
+
+  .from-right {
+    height: 218px;
+  }
+
+  .comment-btn button {
+    padding: 18px 35px;
+    margin-top: 2rem;
+    margin-left: 0;
+  }
+
+  /* Full bolg-details end max width 880px */
+
+  /* Full about gaim plan start max width 880px */
+
+  .gaim-plan-section {
+    padding-top: 50px;
+    padding: 50px 20px 35px;
+  }
+
+  .gaim-plan-img img {
+    max-width: 73%;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .gaim-plan-heading h2 {
+    font-size: 3rem;
+    line-height: 4rem;
+    margin-top: 4rem;
+  }
+
+  .gain-plan-list {
+    margin-top: 1.4rem;
+  }
+
+  .gain-plan-list p {
+    font-size: 1.7rem;
+  }
+
+  .recommendation-heading h2 {
+    font-size: 3rem;
+    line-height: 3rem;
+  }
+
+  .recommendation-section {
+    padding-top: 1px;
+  }
+
+  .recommendation-list {
+    margin-top: 1.4rem;
+  }
+
+  .recommendation-list p {
+    font-size: 1.7rem;
+  }
+
+  .recommendation-image {
+    margin-top: 4rem;
+  }
+
+  .recommendation-image img {
+    max-width: 73%;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .question-section {
+    padding-top: 2px;
+    padding-bottom: 36px;
+  }
+
+  .question-header h2 {
+    font-size: 3rem;
+    line-height: 3rem;
+    margin-bottom: 2rem;
+  }
+
+  .question-header p {
+    font-size: 1.6rem;
+    width: 100%;
+    margin-bottom: 2.8rem;
+  }
+
+  .accordion-button:not(.collapsed) {
+    font-size: 1.6rem;
+    line-height: 2.6rem;
+  }
+
+  .accordion-button {
+    font-size: 1.6rem;
+    line-height: 2.6rem;
+  }
+
+  .podcast-section {
+    padding-top: 1px;
+    padding-bottom: 70px;
+  }
+
+  .h2-large {
+    font-size: 28px;
+  }
+  .poadcast-img {
+    margin-top: 5rem;
+  }
+
+  .poadcast-img img {
+    max-width: 73%;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  /* Full about gain plan end max width 880px */
+
+  /* Myself section start for 880px */
+
+  .myself-card-header h2 {
+    padding-top: 6px;
+    padding-left: 0px;
+    padding-right: 0px;
+    font-size: 22px;
+  }
+
+  .myself-card-header ::after {
+    width: 107%;
+    max-width: 106%;
+  }
+
+  .myslef-image {
+    display: flex;
+    justify-content: center;
+  }
+
+  .mayself-heading h3 {
+    font-size: 28px;
+    line-height: 45px;
+    margin-top: 14px;
+    text-align: center;
+  }
+
+  .mayself-heading p {
+    text-align: center;
+  }
+
+  .myself-content h4 {
+    text-align: center;
+  }
+
+  .myself-content p {
+    text-align: center;
+  }
+
+  .myself-pragarp p {
+    text-align: center;
+  }
+
+  .invest h5 {
+    font-size: 16px;
+  }
+
+  .circle {
+    width: 25px;
+    height: 25px;
+  }
+
+  .invest-margin {
+    margin-left: 27px;
+  }
+
+  /* Myself section end for 880px */
+  /* package section start */
+
+  .packege-card-header h2 {
+    padding-top: 10px;
+    padding-left: 10px;
+    font-size: 24px;
+  }
+
+  .packege-card-header ::after {
+    width: 107%;
+    max-width: 109%;
+  }
+
+  .package-item-bottom h2 {
+    font-size: 22px;
+  }
+
+  /* package section edn */
+
+  /* payment section start  */
+
+  .main-payment {
+    padding-bottom: 12px;
+  }
+
+  .payment-padding {
+    /* padding-left: 0 !important; */
+    padding: 0 15px !important;
+  }
+
+  /* payment section end */
+}
+
+@media (max-width: 766.99px) {
+  /* myself section responsive start for 767px */
+
+  .myself-card-header h2 {
+    padding-top: 8px;
+    padding-left: 0px;
+    padding-right: 0px;
+    font-size: 20px;
+  }
+
+  .myself-card-header ::after {
+    width: 106%;
+    max-width: 108%;
+  }
+
+  .myself-res {
+    padding-left: 0 !important;
+  }
+
+  .myslef-image {
+    display: flex;
+    justify-content: center;
+  }
+
+  .myslef-image img {
+    width: 80%;
+  }
+
+  .mayself-heading h3 {
+    font-size: 20px;
+    line-height: 2;
+    text-align: center;
+    margin-top: 8px;
+  }
+
+  .mayself-heading p {
+    line-height: 28px;
+    font-size: 14px;
+    margin-top: 6px;
+    width: 100%;
+    text-align: center;
+    padding: 0 10px;
+  }
+
+  .myself-content h4 {
+    font-size: 17px;
+    line-height: 2;
+    text-align: center;
+    margin-top: 8px;
+  }
+
+  .myself-content p {
+    line-height: 28px;
+    font-size: 14px;
+    margin-top: 6px;
+    width: 100%;
+    text-align: center;
+    padding: 0 10px;
+  }
+
+  .myself-pragarp p {
+    line-height: 28px;
+    font-size: 14px;
+    margin-top: 6px;
+    width: 100%;
+    text-align: center;
+    padding: 0 10px;
+  }
+
+  .myself-pragarp h4 {
+    font-size: 20px;
+    margin-top: 20px;
+    text-align: center;
+  }
+
+  .invest h5 {
+    font-size: 14px;
+    line-height: 20px;
+    margin-left: 8px;
+  }
+
+  .circle {
+    width: 20px;
+    height: 20px;
+  }
+
+  .invest-margin {
+    margin-left: 29px;
+  }
+
+  .myself-btn {
+    margin-top: 30px;
+  }
+
+  /* myself section responsive end for 767px */
+  /* package section start */
+
+  .packege-card-header h2 {
+    padding-top: 10px;
+    padding-left: 10px;
+    font-size: 24px;
+  }
+
+  .packege-card-header ::after {
+    width: 107%;
+    max-width: 109%;
+  }
+
+  .package-item-bottom h2 {
+    font-size: 22px;
+  }
+
+  /* package section edn */
+}
+
+/* full homepage,blog-page responsive for max 767px */
+@media (max-width: 767px) {
+  /* about page starts */
+  .about-title {
+    font-size: 4rem;
+  }
+  .about-header .img-fluid {
+    max-width: 48%;
+    display: block;
+    margin: auto;
+  }
+  .financial-advisor h2 {
+    margin-top: 3rem;
+  }
+  .financial-advisor p {
+    max-width: 38rem;
+  }
+  .about-more {
+    margin-bottom: 11rem;
+  }
+  .about-me-title p {
+    width: 40.6rem;
+  }
+  .professional-qualification,
+  .experience,
+  .achievements,
+  .my-book,
+  .podcast,
+  .feature {
+    width: 45rem;
+    margin: auto;
+  }
+  .about-testimonial .testomonial-heading p {
+    width: 85%;
+    font-size: 1.3rem;
+  }
+  /* about page ends */
+  .choose-plan .plan-swiper {
+    padding: 35px 10px;
+  }
+  /* blog page starts */
+  .blog-container {
+    grid-template-columns: 1fr 1fr;
+    column-gap: 2rem;
+  }
+  .blog-bg .swiper-card-img.blog-page-card-img {
+    height: 17.5rem;
+  }
+  .blog-bg .card-body h3 a {
+    font-size: 17px;
+  }
+  .blog-container {
+    column-gap: 2rem;
+    padding: 0 2rem;
+  }
+  .blog-pagination {
+    margin-left: 41em;
+  }
+  .newsletter-bg {
+    padding: 4rem 2rem;
+  }
+  .newsletter-content h2 {
+    font-size: 2.8rem;
+  }
+  .newsletter-content p {
+    max-width: 46.4rem;
+    font-size: 1.6rem;
+    font-weight: 400;
+    line-height: 3rem;
+    color: #fff;
+    margin: 2rem auto 3.4rem auto;
+  }
+  .subscribe {
+    gap: 1rem;
+  }
+  .subs-email {
+    width: 48%;
+  }
+  .subs-btn {
+    width: 31%;
+  }
+  /* blog page ends */
+  .show-on-767 {
+    display: block !important;
+  }
+
+  .hide-on-767 {
+    display: none !important;
+  }
+
+  .offcanvas-collapse {
+    top: 60px;
+  }
+
+  .container,
+  .container-lg {
+    max-width: 100%;
+  }
+
+  .left-marketing-content {
+    max-width: 100%;
+    margin: 0 auto;
+  }
+
+  .about-right-content {
+    margin: 0 auto;
+  }
+
+  .footer-bottom .p-small {
+    text-align: center !important;
+  }
+
+  .breadcumd-box h1 {
+    font-size: 32px;
+    line-height: 1.2;
+  }
+
+  .left-marketing-content h2 {
+    font-size: 32px;
+  }
+
+  .social-media-section .right-content-box {
+    max-width: 100%;
+  }
+  .mobile-img img,
+  .mobile-img {
+    width: 100%;
+  }
+
+  .left-blog-post {
+    margin-bottom: 30px;
+  }
+
+  .latest-blog-post h4,
+  .populer-blog-post h4 {
+    margin-bottom: 20px;
+  }
+  /* homepage responsive starts */
+  .left-top-content {
+    width: 100%;
+  }
+  .header .h1-large {
+    font-size: 3.4rem;
+    max-width: 50.3rem;
+    line-height: 4.4rem;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  p,
+  .p-large {
+    font-size: 1.6rem;
+    line-height: 2.8rem;
+  }
+  .get-start-btn {
+    font-size: 1.3rem;
+    line-height: 1.4rem;
+    padding: 1.8rem 1.2rem;
+  }
+  .header {
+    padding-top: 12.3rem !important;
+    padding-bottom: 2.3rem !important;
+  }
+  .header .text-container p {
+    max-width: 500px;
+    width: 100%;
+    margin: 0 auto;
+    margin-bottom: 2rem;
+  }
+  .right-content-box {
+    text-align: center;
+  }
+  .right-content-box h2 {
+    font-size: 2.3rem;
+  }
+  .right-content-box p {
+    font-size: 16px;
+    line-height: 166%;
+  }
+  .decoration-star {
+    z-index: -1;
+  }
+  .service-content-box {
+    text-align: center;
+    margin: auto;
+  }
+  .service-card-body h4,
+  .service-card-body h4 a {
+    line-height: 17px;
+    margin-bottom: 0;
+  }
+  .service-card-body p {
+    min-height: 0;
+  }
+  .down-arrow-img {
+    max-width: 50px;
+    right: -61px;
+  }
+  section,
+  .section,
+  .stand-out-section,
+  .stunning-img-section,
+  .chatgpt-section,
+  .body-section {
+    padding: 50px 11px 0px;
+  }
+  .service-content h2 {
+    font-size: 23px;
+    letter-spacing: 0.02em;
+    margin-bottom: 0;
+  }
+  .mobile-img {
+    margin-bottom: 10px;
+  }
+  .blog-details .blog-img,
+  .section-title {
+    margin-bottom: 50px;
+  }
+  .following-section .section-title h2 {
+    margin-bottom: 2rem;
+  }
+  .empower-section #light {
+    top: 50%;
+    left: 88%;
+  }
+  .setp-icons span {
+    max-width: 66px;
+    height: 66px;
+    font-size: 34px;
+  }
+
+  .choose-plan {
+    padding: 0;
+    margin-top: 1rem;
+  }
+  .choose-plan-title h2 {
+    width: 31rem;
+  }
+  .testomonial-content {
+    background-color: #4ac7aa;
+    text-align: center;
+    padding: 30px 0;
+  }
+  .carousel-inner img {
+    width: 45px;
+  }
+  .testomonial-heading h5 {
+    font-size: 19px;
+    margin-top: 20px;
+    line-height: 31px;
+  }
+  .testomonial-heading p {
+    width: 90%;
+  }
+  .testomonial-left-image h6 {
+    font-size: 1.6rem;
+    letter-spacing: 1px;
+  }
+  .testomonial-left-image p {
+    width: 38rem;
+    margin: 0 auto;
+  }
+
+  .counter-section {
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+  .counter-section h2 {
+    font-size: 13rem;
+    line-height: 16rem;
+  }
+  .counter-section p {
+    font-size: 2.3rem;
+    left: 53%;
+  }
+  .counter-section .project::after {
+    height: 0;
+  }
+  .counter-section .project::before {
+    height: 0;
+  }
+  .counter-section .offices::before {
+    height: 0;
+  }
+  #financial {
+    top: 5rem;
+  }
+  #financial {
+    background-position: center center;
+  }
+  .financial-heading {
+    font-size: 3.1rem;
+    line-height: 5rem;
+    width: 75%;
+    padding: 0 1rem;
+  }
+  .blog-section {
+    margin: 7rem 0;
+  }
+
+  .empower-section #light {
+    top: 50%;
+    left: 90vw;
+  }
+  .empower-content video {
+    width: 45rem;
+  }
+  /* empower section stats */
+  #empower {
+    padding-left: 10px;
+    padding-top: 2rem;
+    padding-bottom: 100px;
+    background-position: right top 10%;
+    margin-top: 5rem;
+  }
+
+  .empower-section .img-fluid {
+    max-width: 89%;
+    height: auto;
+  }
+  .empower-heading {
+    margin-top: 0;
+  }
+  .empower-wrapper {
+    padding-left: 0;
+  }
+
+  .empower-content {
+    text-align: center;
+  }
+  .empower-left-image {
+    padding-left: 0;
+    position: relative;
+  }
+  .empower-left-image img {
+    object-fit: cover;
+    max-width: 24vw;
+    position: absolute;
+    top: 5%;
+    left: 0%;
+    z-index: 1;
+    margin-left: 15rem;
+  }
+  .empower-content-img img {
+    position: absolute;
+    object-fit: cover;
+    top: 3%;
+    left: 58%;
+    width: 26vw;
+  }
+
+  .empower-heading h2 {
+    margin-top: 3.5rem;
+  }
+  .empower-margin {
+    padding: 4rem 2rem;
+    margin-bottom: 0;
+  }
+  .empower-heading p {
+    font-size: 1.7rem;
+    line-height: 3.3rem;
+    width: 88%;
+    margin-top: 12px;
+  }
+  .empower-lists p {
+    font-size: 1.5rem;
+    line-height: 3.5rem;
+    font-weight: 500;
+  }
+  .empower-btn {
+    margin-top: 1.5rem;
+  }
+  .empower-btn .start-btn {
+    font-size: 13px;
+    line-height: 8px;
+  }
+  .margin-sm {
+    margin-top: 5rem;
+  }
+  .footer-left-content p {
+    font-size: 1.6rem;
+    margin-bottom: 3rem;
+    max-width: 100%;
+  }
+  .footer-left-content p,
+  .footer-left-content,
+  .footer-menu {
+    margin-bottom: 3.8rem;
+  }
+  /* full homepage responsive ends */
+  /* blog page starts */
+  .blog-title {
+    font-size: 4rem;
+  }
+  /* about gaim plan */
+  .podcast-section #light {
+    left: 96vw;
+  }
+}
+/* full homepage responsive for max 736px */
+@media (max-width: 736px) {
+  .navbar.top-nav-collapse .start-btn,
+  .navbar.top-nav-collapse .signin-btn {
+    padding: 10px 15px;
+  }
+
+  .top-nav-collapse .offcanvas-collapse {
+    top: 56px;
+  }
+
+  section,
+  .section,
+  .stand-out-section,
+  .stunning-img-section,
+  .chatgpt-section,
+  .body-section {
+    padding: 50px 20px 60px;
+  }
+  .service-content-box {
+    top: -5rem;
+  }
+  .footer-top {
+    padding-bottom: 20px;
+  }
+
+  .footer-bottom {
+    padding: 20px 0;
+  }
+
+  .section-title h4 {
+    margin-bottom: 0px;
+    font-size: 24px;
+    line-height: 30px;
+  }
+
+  /* package section start */
+
+  .packege-card-header h2 {
+    padding-top: 10px;
+    padding-left: 10px;
+    font-size: 24px;
+  }
+
+  .packege-card-header ::after {
+    width: 107%;
+    max-width: 109%;
+  }
+
+  .package-item-bottom h2 {
+    font-size: 22px;
+  }
+
+  /* package section edn */
+}
+/* full homepage responsive for max 640px */
+@media (max-width: 640px) {
+  .podcast-section #light {
+    left: 98vw;
+  }
+  .poadcast-img video {
+    width: 40rem;
+  }
+  .show-on-640 {
+    display: block !important;
+  }
+
+  .hide-on-640 {
+    display: none !important;
+  }
+
+  .blog-section .section-title {
+    flex-direction: column;
+  }
+
+  .top-btn-box {
+    display: none;
+  }
+
+  .menu-list-btn {
+    display: flex;
+    justify-content: flex-start;
+    gap: 10px;
+  }
+
+  .navbar .menu-list-btn .signin-btn {
+    color: #4555d2;
+    border-color: rgba(207, 33, 41, 1);
+  }
+
+  .blog-inner-section {
+    background-image: url(../images/blog-bg-2.png);
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    background-size: contain;
+  }
+  /* homepage responsive starts */
+  .left-top-content {
+    width: 100%;
+  }
+  .header .h1-large {
+    font-size: 3.4rem;
+    max-width: 38.3rem;
+    line-height: 4.4rem;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  p,
+  .p-large {
+    font-size: 1.6rem;
+    line-height: 2.8rem;
+  }
+  .get-start-btn {
+    font-size: 1.3rem;
+    line-height: 1.4rem;
+    padding: 1.8rem 1.2rem;
+  }
+  .header {
+    padding-top: 12.3rem !important;
+    padding-bottom: 2.3rem !important;
+  }
+  .header .text-container p {
+    max-width: 458px;
+    width: 100%;
+    margin: 0 auto;
+    margin-bottom: 2rem;
+  }
+  .right-content-box {
+    text-align: center;
+  }
+  .right-content-box h2 {
+    font-size: 2.3rem;
+  }
+  .right-content-box p {
+    font-size: 16px;
+    line-height: 166%;
+  }
+  .decoration-star {
+    z-index: -1;
+  }
+  .service-content-box {
+    text-align: center;
+    margin: auto;
+  }
+  .service-card-body h4,
+  .service-card-body h4 a {
+    line-height: 17px;
+    margin-bottom: 0;
+  }
+  .service-card-body p {
+    min-height: 0;
+  }
+  .down-arrow-img img {
+    max-width: 64px;
+  }
+  section,
+  .section,
+  .stand-out-section,
+  .stunning-img-section,
+  .chatgpt-section,
+  .body-section {
+    padding: 50px 11px 0px;
+  }
+  .service-content h2 {
+    font-size: 23px;
+    letter-spacing: 0.02em;
+    margin-bottom: 0;
+    margin-top: 4rem;
+  }
+  .mobile-img {
+    margin-bottom: 10px;
+  }
+  .blog-details .blog-img,
+  .section-title {
+    margin-bottom: 50px;
+  }
+  .following-section .section-title h2 {
+    margin-bottom: 2rem;
+  }
+
+  .setp-icons span {
+    max-width: 66px;
+    height: 66px;
+    font-size: 34px;
+  }
+
+  .choose-plan {
+    padding: 0;
+    margin-top: 0rem;
+  }
+  .choose-plan-title h2 {
+    width: 31rem;
+  }
+  .testomonial-content {
+    background-color: #4ac7aa;
+    text-align: center;
+    padding: 30px 0;
+  }
+  .carousel-inner img {
+    width: 45px;
+  }
+  .testomonial-heading h5 {
+    font-size: 19px;
+    margin-top: 20px;
+    line-height: 31px;
+  }
+  .testomonial-heading p {
+    width: 90%;
+  }
+  .testomonial-left-image h6 {
+    font-size: 1.6rem;
+    letter-spacing: 1px;
+  }
+  .testomonial-left-image p {
+    width: 38rem;
+    margin: 0 auto;
+  }
+
+  .counter-section {
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+  .counter-section h2 {
+    font-size: 13rem;
+    line-height: 16rem;
+  }
+  .counter-section p {
+    font-size: 2.3rem;
+    left: 53%;
+  }
+  .counter-section .project::after {
+    height: 0;
+  }
+  .counter-section .project::before {
+    height: 0;
+  }
+  .counter-section .offices::before {
+    height: 0;
+  }
+  #financial {
+    top: 5rem;
+  }
+  #financial {
+    background-position: center center;
+  }
+  .financial-heading {
+    font-size: 3.1rem;
+    line-height: 5rem;
+    width: 100%;
+    padding: 0 1rem;
+  }
+  .blog-section {
+    margin: 7rem 0;
+  }
+  .empower-section #light {
+    top: 50%;
+    left: 97vw;
+  }
+  .empower-content video {
+    width: 45rem;
+  }
+  /* empower section stats */
+  #empower {
+    padding-left: 10px;
+    padding-top: 6rem;
+    padding-bottom: 100px;
+  }
+  .empower-section .img-fluid {
+    max-width: 88%;
+  }
+  .empower-heading {
+    margin-top: -2rem;
+  }
+  .empower-wrapper {
+    padding-left: 0;
+  }
+  .empower-heading h2 {
+    margin-top: 7rem;
+  }
+
+  .margin-sm {
+    margin-top: 5rem;
+  }
+  .footer-left-content p {
+    font-size: 1.6rem;
+    margin-bottom: 3rem;
+    max-width: 100%;
+  }
+  .footer-left-content p,
+  .footer-left-content,
+  .footer-menu {
+    margin-bottom: 3.8rem;
+  }
+  /* blog page starts */
+  .blog-bg .swiper-card-img.blog-page-card-img {
+    height: 14.5rem;
+  }
+  .choose-plan {
+    margin-top: 0;
+  }
+  /* blog page ends */
+  /* full homepage responsive ends */
+
+  /* myself section start for 640 px */
+  .myself-card-header h2 {
+    padding-top: 8px;
+    padding-left: 0px;
+    padding-right: 0px;
+    font-size: 20px;
+  }
+
+  .myself-card-header ::after {
+    width: 107%;
+    max-width: 108%;
+  }
+
+  .myself-res {
+    padding-left: 0 !important;
+  }
+
+  .myslef-image {
+    display: flex;
+    justify-content: center;
+  }
+
+  .myslef-image img {
+    width: 80%;
+  }
+
+  .mayself-heading h3 {
+    font-size: 20px;
+    line-height: 2;
+    text-align: center;
+    margin-top: 8px;
+  }
+
+  .mayself-heading p {
+    line-height: 28px;
+    font-size: 14px;
+    margin-top: 6px;
+    width: 100%;
+    text-align: center;
+    padding: 0 10px;
+  }
+
+  .myself-content h4 {
+    font-size: 17px;
+    line-height: 2;
+    text-align: center;
+    margin-top: 8px;
+  }
+
+  .myself-content p {
+    line-height: 28px;
+    font-size: 14px;
+    margin-top: 6px;
+    width: 100%;
+    text-align: center;
+    padding: 0 10px;
+  }
+
+  .myself-pragarp p {
+    line-height: 28px;
+    font-size: 14px;
+    margin-top: 6px;
+    width: 100%;
+    text-align: center;
+    padding: 0 10px;
+  }
+
+  .myself-pragarp h4 {
+    font-size: 20px;
+    margin-top: 20px;
+    text-align: center;
+  }
+
+  .invest h5 {
+    font-size: 14px;
+    line-height: 20px;
+    margin-left: 8px;
+  }
+
+  .circle {
+    width: 20px;
+    height: 20px;
+  }
+
+  .invest-margin {
+    margin-left: 22px;
+  }
+
+  .myself-btn {
+    margin-top: 30px;
+  }
+
+  /* myself section end for 640px  */
+
+  /* payment section start for max 640px */
+
+  .payment-padding {
+    padding-left: 0 !important;
+  }
+
+  .payment-card-header h2 {
+    padding-top: 25px;
+    padding-left: 19px;
+    font-size: 24px;
+  }
+
+  .order-wrapper {
+    padding: 0 3px;
+    margin-top: 12px;
+  }
+  .form-email,
+  .form-password,
+  .remember-left span,
+  label {
+    margin-top: 6px;
+  }
+
+  .submit-btn button {
+    padding: 19px 20px;
+  }
+
+  .order-wrapper {
+    padding: 0 3px;
+  }
+
+  .apply-btn a {
+    padding: 11px 12px;
+    margin-top: 6px;
+  }
+
+  .all-total-amount p {
+    font-size: 22px;
+  }
+
+  .total-amount {
+    padding: 0 6px;
+  }
+
+  .subtotal {
+    padding-left: 6px;
+    padding-right: 6px;
+  }
+
+  /* payment section end for max 640px */
+}
+
+@media (max-width: 575.99px) {
+  /* myself responsive for 575 start */
+
+  .myself-card-header h2 {
+    padding-top: 8px;
+    padding-left: 0px;
+    padding-right: 0px;
+    font-size: 20px;
+  }
+
+  .myself-card-header ::after {
+    width: 108%;
+    max-width: 108%;
+  }
+
+  .myself-res {
+    padding-left: 0 !important;
+  }
+
+  .myslef-image {
+    display: flex;
+    justify-content: center;
+  }
+
+  .myslef-image img {
+    width: 80%;
+  }
+
+  .mayself-heading h3 {
+    font-size: 20px;
+    line-height: 2;
+    text-align: center;
+    margin-top: 8px;
+  }
+
+  .mayself-heading p {
+    line-height: 28px;
+    font-size: 14px;
+    margin-top: 6px;
+    width: 100%;
+    text-align: center;
+    padding: 0 10px;
+  }
+
+  .myself-content h4 {
+    font-size: 17px;
+    line-height: 2;
+    text-align: center;
+    margin-top: 8px;
+  }
+
+  .myself-content p {
+    line-height: 28px;
+    font-size: 14px;
+    margin-top: 6px;
+    width: 100%;
+    text-align: center;
+    padding: 0 10px;
+  }
+
+  .myself-pragarp p {
+    line-height: 28px;
+    font-size: 14px;
+    margin-top: 6px;
+    width: 100%;
+    text-align: center;
+    padding: 0 10px;
+  }
+
+  .myself-pragarp h4 {
+    font-size: 20px;
+    margin-top: 20px;
+    text-align: center;
+  }
+
+  .invest h5 {
+    font-size: 14px;
+    line-height: 20px;
+    margin-left: 8px;
+  }
+
+  .circle {
+    width: 20px;
+    height: 20px;
+  }
+
+  .invest-margin {
+    margin-left: 22px;
+  }
+
+  .myself-btn {
+    margin-top: 30px;
+  }
+
+  /* myself responsive for 575 end */
+
+  /* package section start */
+
+  .packege-card-header h2 {
+    padding-top: 10px;
+    padding-left: 10px;
+    font-size: 24px;
+  }
+
+  .packege-card-header ::after {
+    width: 110%;
+    max-width: 109%;
+  }
+
+  .package-item-bottom h2 {
+    font-size: 22px;
+  }
+
+  /* package section edn */
+}
+
+@media (max-width: 507px) {
+  .myself-card-header ::after {
+    width: 110%;
+    max-width: 110%;
+  }
+}
+
+/* full homepage responsive for max 575px */
+@media (max-width: 575px) {
+  .podcast-section #light {
+    left: 108vw;
+  }
+  .poadcast-img video {
+    width: 35rem;
+  }
+  .empower-section #light {
+    top: 50%;
+    left: 105vw;
+  }
+  .empower-content video {
+    width: 40rem;
+  }
+  .empower-section .img-fluid {
+    max-width: 60%;
+    height: auto;
+  }
+  /* about page starts */
+  .about-us {
+    margin-top: 79px;
+  }
+  .about-title {
+    font-size: 2.6rem;
+  }
+  .details-top {
+    width: 36rem;
+  }
+  .about-testimonial .testomonial-left-image p {
+    width: 27rem;
+    margin: 0 auto;
+  }
+  /* about page ends */
+
+  /* blog page starts */
+  .blog-us {
+    margin-top: 79px;
+  }
+  .blog-title {
+    font-size: 3rem;
+  }
+  .blog-container {
+    grid-template-columns: 1fr;
+    row-gap: 3rem;
+  }
+  .blog-bg .blog-page-cards {
+    order: 2;
+  }
+  .blog-bg .blog-search {
+    order: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .blog-search .search {
+    max-width: 40rem;
+  }
+  .blog-catagory {
+    padding: 2rem;
+    max-width: 40rem;
+    width: 100%;
+  }
+  .blog-bg .swiper-card-img.blog-page-card-img {
+    height: 18.5rem;
+  }
+  .pagination {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.8rem;
+    gap: 2rem;
+  }
+  .pagination .page-links:link,
+  .pagination .page-links:visited {
+    width: 3rem;
+    height: 3rem;
+  }
+  .blog-pagination {
+    margin-left: 0;
+  }
+  .subscribe {
+    justify-content: center;
+  }
+  .newsletter-content h2 {
+    font-size: 2.2rem;
+  }
+  .newsletter-content p {
+    font-size: 1.4rem;
+    width: 100%;
+  }
+  .newsletter input::placeholder {
+    font-size: 1.2rem;
+  }
+  .subs-btn button {
+    font-size: 1.6rem;
+  }
+  /* blog page ends */
+  .show-on-575 {
+    display: block !important;
+  }
+
+  .hide-on-575 {
+    display: none !important;
+  }
+
+  .footer-left-content p,
+  .footer-left-content,
+  .footer-menu {
+    margin-bottom: 20px;
+  }
+
+  .populer-blog-post {
+    margin-bottom: 40px;
+  }
+
+  .navbar .logo-image img {
+    max-width: 250px;
+  }
+
+  .header .h1-large {
+    font-size: 32px;
+  }
+
+  .top-nav-collapse .offcanvas-collapse {
+    top: 57px;
+  }
+
+  .offcanvas-collapse {
+    top: 53px;
+  }
+
+  .payment-offer {
+    flex-direction: column;
+    align-items: flex-start;
+    margin-bottom: 20px;
+  }
+
+  .about-mazicai-section .section-title h2,
+  .stand-out-section .section-title h2,
+  .left-content h2 {
+    font-size: 28px;
+  }
+
+  .left-content p {
+    margin-bottom: 20px;
+  }
+
+  .h2-large,
+  .right-content-box h2 {
+    font-size: 26px;
+    line-height: 1.4;
+  }
+
+  .inner-form-section {
+    padding: 30px;
+  }
+
+  .accordion-box .accordion-button,
+  .accordion-box .accordion-button.collapsed {
+    font-size: 1rem;
+    line-height: 1.4;
+  }
+
+  .accordion-body p {
+    font-size: 14px;
+    line-height: 1.5;
+  }
+
+  .blog-details .blog-img,
+  .section-title {
+    margin-bottom: 30px;
+  }
+
+  .breadcumd-box h1 {
+    font-size: 30px;
+    line-height: 1.2;
+  }
+  /* homepage responsive starts */
+
+  .left-top-content {
+    width: 100%;
+  }
+  .header .h1-large {
+    font-size: 2.4rem;
+    max-width: 38.3rem;
+    line-height: 3.4rem;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  p,
+  .p-large {
+    font-size: 1.6rem;
+    line-height: 2.8rem;
+  }
+  .get-start-btn {
+    font-size: 1.3rem;
+    line-height: 1.4rem;
+    padding: 1.8rem 1.2rem;
+  }
+  .header {
+    padding-top: 12.3rem !important;
+    padding-bottom: 2.3rem !important;
+  }
+  .right-content-box {
+    text-align: center;
+  }
+  .right-content-box h2 {
+    font-size: 2.3rem;
+  }
+  .right-content-box p {
+    font-size: 16px;
+    line-height: 166%;
+  }
+  .decoration-star {
+    z-index: -1;
+  }
+  .service-content-box {
+    text-align: center;
+    margin: auto;
+  }
+  .service-card-body h4,
+  .service-card-body h4 a {
+    line-height: 17px;
+    margin-bottom: 0;
+  }
+  .service-card-body p {
+    min-height: 0;
+  }
+  .down-arrow-img img {
+    max-width: 64px;
+  }
+  section,
+  .section,
+  .stand-out-section,
+  .stunning-img-section,
+  .chatgpt-section,
+  .body-section {
+    padding: 50px 11px 0px;
+  }
+  .service-content h2 {
+    font-size: 23px;
+    letter-spacing: 0.02em;
+    margin-bottom: 0;
+  }
+  .mobile-img {
+    margin-bottom: 10px;
+  }
+  .blog-details .blog-img,
+  .section-title {
+    margin-bottom: 50px;
+  }
+  .following-section .section-title h2 {
+    margin-bottom: 2rem;
+  }
+
+  .setp-icons span {
+    max-width: 66px;
+    height: 66px;
+    font-size: 34px;
+  }
+
+  .choose-plan {
+    padding: 0;
+    margin-top: 6rem;
+  }
+  .choose-plan-title h2 {
+    width: 30rem;
+  }
+  .testomonial-content {
+    background-color: #4ac7aa;
+    text-align: center;
+    padding: 30px 0;
+  }
+  .carousel-inner img {
+    width: 45px;
+  }
+  .testomonial-heading h5 {
+    font-size: 19px;
+    margin-top: 20px;
+    line-height: 31px;
+  }
+  .testomonial-heading p {
+    width: 90%;
+  }
+  .testomonial-left-image p {
+    width: 25rem;
+    margin: 0 auto;
+  }
+
+  .counter-section {
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+  .counter-section h2 {
+    font-size: 13rem;
+    line-height: 16rem;
+  }
+  .counter-section p {
+    font-size: 2.3rem;
+    left: 52%;
+  }
+  .counter-section .project::after {
+    height: 0;
+  }
+  .counter-section .project::before {
+    height: 0;
+  }
+  .counter-section .offices::before {
+    height: 0;
+  }
+  #financial {
+    top: 5rem;
+  }
+  #financial {
+    background-position: center center;
+  }
+  .financial-heading {
+    font-size: 3.1rem;
+    line-height: 5rem;
+    width: 100%;
+    padding: 0 1rem;
+  }
+  .blog-section {
+    margin: 7rem 0;
+  }
+  .footer-left-content p {
+    font-size: 1.6rem;
+    margin-bottom: 3rem;
+    max-width: 100%;
+  }
+  .footer-left-content p,
+  .footer-left-content,
+  .footer-menu {
+    margin-bottom: 3.8rem;
+  }
+
+  /* empower section stats */
+  #empower {
+    padding-left: 11px;
+    padding-top: 5rem;
+    margin-top: 3rem;
+    padding-bottom: 2rem;
+  }
+
+  .empower-heading {
+    margin-top: 0rem;
+  }
+
+  .empower-wrapper {
+    padding-left: 10px;
+  }
+
+  .empower-heading h2 {
+    font-size: 2.4rem;
+    width: 100%;
+    line-height: 4rem;
+  }
+
+  .empower-heading p {
+    font-size: 1.7rem;
+  }
+
+  #blog-section .swiper-card {
+    margin: 0 auto;
+  }
+  .margin-sm {
+    margin-top: 2rem;
+  }
+  .footer-left-content p {
+    font-size: 1.6rem;
+    margin-bottom: 3rem;
+    max-width: 71%;
+  }
+  .footer-left-content img {
+    width: 50%;
+    margin-bottom: 20px;
+  }
+  /* homepage responsive ends */
+  /* blog details responsive start for 575 */
+
+  .about-us {
+    margin-top: 124px;
+  }
+
+  .about-title {
+    font-size: 2rem;
+    line-height: 2rem;
+  }
+
+  .children-heading h2 {
+    font-size: 3rem;
+    line-height: 5rem;
+    margin-bottom: 2rem;
+  }
+
+  .children-section {
+    padding-top: 42px;
+  }
+
+  .challenge-title h2 {
+    margin-top: 3rem;
+  }
+
+  .challege-content p {
+    line-height: 3rem;
+  }
+
+  .literacy-title h2 {
+    margin-top: 3rem;
+  }
+
+  .literacy-content p {
+    line-height: 3rem;
+    width: 100%;
+  }
+
+  .acount-title h2 {
+    margin-top: 3rem;
+  }
+
+  .acount-content p {
+    line-height: 3rem;
+    width: 100%;
+  }
+
+  .planning-title h2 {
+    margin-top: 3rem;
+  }
+
+  .planning-content p {
+    line-height: 3rem;
+    width: 100%;
+  }
+
+  .author-section {
+    margin-top: 2rem;
+  }
+
+  .author-heading h2 {
+    margin-top: 2rem;
+  }
+
+  .social-icons {
+    gap: 16px;
+    margin-top: 17px;
+  }
+
+  .author-content p {
+    font-size: 1.9rem;
+    line-height: 2.9rem;
+  }
+
+  .comment-section {
+    margin-top: 0rem;
+  }
+
+  .comment-heading h2 {
+    margin-bottom: 3rem;
+  }
+
+  .from-left {
+    margin-bottom: 2.8rem;
+    padding: 19px 10px;
+  }
+
+  .from-right {
+    height: 218px;
+  }
+
+  .comment-btn button {
+    padding: 18px 35px;
+    margin-top: 2rem;
+    margin-left: 0;
+  }
+
+  .blog-section {
+    margin: 2rem 0;
+  }
+
+  /* #blog-section .swiper-wrapper {
+	left: 5.8%;
+} */
+
+  /* blog details responsive end for 575 */
+
+  /* about gaim responsive start for 575 */
+
+  .gaim-plan-section {
+    padding-top: 50px;
+  }
+
+  .gaim-plan-heading h2 {
+    font-size: 2rem;
+    line-height: 4rem;
+    margin-top: 2rem;
+  }
+
+  .gaim-plan-content p {
+    font-size: 1.6rem;
+    line-height: 2.6rem;
+    margin-top: 1rem;
+  }
+
+  .gain-plan-list {
+    margin-top: 1.4rem;
+  }
+
+  .gain-plan-list p {
+    font-size: 1.5rem;
+  }
+
+  .recommendation-heading h2 {
+    font-size: 2rem;
+    line-height: 3rem;
+  }
+
+  .recommendation-section {
+    padding-top: 28px;
+  }
+
+  .recommendation-list {
+    margin-top: 1.4rem;
+  }
+
+  .recommendations-content p {
+    width: 100%;
+    margin-top: 1rem;
+  }
+
+  .recommendation-list p {
+    font-size: 1.5rem;
+  }
+
+  .recommendations-pragrap p {
+    margin: 1rem 0;
+    width: 100%;
+  }
+
+  .gaim-plan-img img {
+    max-width: 70%;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .recommendation-image {
+    margin-top: 3rem;
+  }
+
+  .recommendation-image img {
+    max-width: 70%;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .question-section {
+    padding-top: 36px;
+  }
+
+  .question-header h2 {
+    font-size: 2rem;
+    line-height: 3rem;
+    margin-bottom: 1rem;
+  }
+
+  .question-header p {
+    font-size: 1.6rem;
+    width: 100%;
+    margin-bottom: 2.8rem;
+  }
+
+  .accordion-button:not(.collapsed) {
+    font-size: 1.6rem;
+    line-height: 2.6rem;
+  }
+
+  .accordion-button {
+    font-size: 1.6rem;
+    line-height: 2.6rem;
+  }
+
+  .podcast-section {
+    padding-top: 20px;
+    padding-bottom: 70px;
+  }
+
+  .poadcast-img {
+    margin-top: 3rem;
+  }
+
+  .poadcast-img img {
+    max-width: 70%;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  /* about gaim responsive end for 575 */
+
+  /* payment section start for max 575px */
+
+  .payment-padding {
+    padding-left: 0 !important;
+  }
+
+  .payment-card-header h2 {
+    padding-top: 25px;
+    padding-left: 19px;
+    font-size: 24px;
+  }
+
+  .order-wrapper {
+    padding: 0 3px;
+    margin-top: 12px;
+  }
+  .form-email,
+  .form-password,
+  .remember-left span,
+  label {
+    margin-top: 6px;
+  }
+
+  .submit-btn button {
+    padding: 19px 20px;
+  }
+
+  .order-wrapper {
+    padding: 0 3px;
+  }
+
+  .apply-btn a {
+    padding: 11px 12px;
+    margin-top: 6px;
+  }
+
+  .all-total-amount p {
+    font-size: 22px;
+  }
+
+  .total-amount {
+    padding: 0 6px;
+  }
+
+  .subtotal {
+    padding-left: 6px;
+    padding-right: 6px;
+  }
+
+  /* payment section end for max 575px */
+}
+
+/* full homepage responsive for max 480px */
+
+@media (max-width: 480px) {
+  .podcast-section #light {
+    left: 124vw;
+  }
+  .poadcast-img video {
+    width: 30rem;
+  }
+  /* about page starts */
+  .professional-qualification,
+  .experience,
+  .achievements,
+  .my-book,
+  .podcast,
+  .feature {
+    width: 33rem;
+    margin: auto;
+  }
+  .about-me-title p {
+    width: 30.6rem;
+  }
+  /* anout page ends */
+  .show-on-480 {
+    display: block !important;
+  }
+
+  .hide-on-480 {
+    display: none !important;
+  }
+
+  .navbar {
+    background: #fff;
+  }
+  .margin-sm {
+    margin-top: 1rem;
+  }
+  /* homepage responsive starts */
+  .left-top-content {
+    width: 100%;
+  }
+  .header .h1-large {
+    font-size: 2.3rem;
+    max-width: 35.3rem;
+    line-height: 3.4rem;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  p,
+  .p-large {
+    font-size: 1.6rem;
+    line-height: 2.8rem;
+  }
+  .following-section .section-title p {
+    width: 100%;
+  }
+  .get-start-btn {
+    font-size: 1.3rem;
+    line-height: 1.4rem;
+    padding: 1.8rem 1.2rem;
+  }
+  .header {
+    padding-top: 12.3rem !important;
+    padding-bottom: 2.3rem !important;
+  }
+  .right-content-box {
+    text-align: center;
+  }
+  .right-content-box h2 {
+    font-size: 2.3rem;
+  }
+  .right-content-box p {
+    font-size: 16px;
+    line-height: 166%;
+  }
+  .decoration-star {
+    z-index: -1;
+  }
+  .service-content-box {
+    text-align: center;
+    margin: auto;
+  }
+  .service-card-body h4,
+  .service-card-body h4 a {
+    line-height: 17px;
+    margin-bottom: 0;
+  }
+  .service-card-body p {
+    min-height: 0;
+  }
+  .down-arrow-img img {
+    max-width: 55px;
+  }
+  section,
+  .section,
+  .stand-out-section,
+  .stunning-img-section,
+  .chatgpt-section,
+  .body-section {
+    padding: 50px 11px 0px;
+  }
+  .service-content h2 {
+    font-size: 23px;
+    letter-spacing: 0.02em;
+    margin-bottom: 0;
+  }
+  .mobile-img {
+    margin-bottom: 10px;
+  }
+  .blog-details .blog-img,
+  .section-title {
+    margin-bottom: 50px;
+  }
+  .following-section .section-title h2 {
+    margin-bottom: 2rem;
+  }
+
+  .setp-icons span {
+    max-width: 66px;
+    height: 66px;
+    font-size: 34px;
+  }
+
+  .choose-plan {
+    padding: 0;
+    margin-top: 5rem;
+  }
+  .choose-plan-title h2 {
+    width: 30rem;
+  }
+  .testomonial-content {
+    background-color: #4ac7aa;
+    text-align: center;
+    padding: 30px 0;
+  }
+  .carousel-inner img {
+    width: 45px;
+  }
+  .testomonial-heading h5 {
+    font-size: 19px;
+    margin-top: 20px;
+    line-height: 31px;
+  }
+  .testomonial-heading p {
+    width: 90%;
+  }
+  .testomonial-left-image p {
+    width: 25rem;
+    margin: 0 auto;
+  }
+
+  .counter-section {
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+  .counter-section h2 {
+    font-size: 13rem;
+    line-height: 16rem;
+  }
+  .counter-section p {
+    font-size: 2.3rem;
+    left: 52%;
+  }
+  .counter-section .project::after {
+    height: 0;
+  }
+  .counter-section .project::before {
+    height: 0;
+  }
+  .counter-section .offices::before {
+    height: 0;
+  }
+  #financial {
+    top: 5rem;
+  }
+  #financial {
+    background-position: center center;
+  }
+  .financial-heading {
+    font-size: 3.1rem;
+    line-height: 5rem;
+    width: 100%;
+    padding: 0 1rem;
+  }
+  .blog-section {
+    margin: 7rem 0;
+  }
+  .footer-left-content p {
+    font-size: 1.6rem;
+    margin-bottom: 3rem;
+    max-width: 100%;
+  }
+  .footer-left-content p,
+  .footer-left-content,
+  .footer-menu {
+    margin-bottom: 3.8rem;
+  }
+  /* empower section stats */
+  #empower {
+    padding-left: 11px;
+    padding-top: 5rem;
+    margin-top: 3rem;
+    padding-bottom: 2rem;
+  }
+
+  .empower-heading {
+    margin-top: 0;
+  }
+
+  .empower-wrapper {
+    padding-left: 10px;
+  }
+
+  .empower-heading h2 {
+    font-size: 2.4rem;
+    width: 100%;
+    line-height: 4rem;
+  }
+
+  .empower-heading p {
+    font-size: 1.4rem;
+  }
+
+  /* blog section start */
+  #blog-section .swiper-card {
+    margin: 0 auto;
+  }
+  .empower-section #light {
+    top: 50%;
+    left: 122vw;
+  }
+  .empower-content video {
+    width: 30rem;
+  }
+  /* homepage responsive ends */
+  /* blog page strats */
+  .subscribe {
+    flex-direction: column;
+  }
+  .subs-email {
+    width: 100%;
+  }
+  .subs-btn {
+    width: 100%;
+  }
+  .subs-btn button {
+    font-size: 1.4rem;
+    width: 100%;
+  }
+  /* blog page ends*/
+
+  /* myself section start for max 480px*/
+
+  .myself-card-header h2 {
+    padding-top: 7px;
+    padding-left: 0px;
+    padding-right: 0px;
+    font-size: 16px;
+  }
+
+  .myself-card-header ::after {
+    width: 110%;
+    max-width: 110%;
+  }
+
+  .myself-res {
+    padding-left: 0 !important;
+  }
+
+  .myslef-image {
+    display: flex;
+    justify-content: center;
+  }
+
+  .myslef-image img {
+    width: 80%;
+  }
+
+  .mayself-heading h3 {
+    font-size: 20px;
+    line-height: 2;
+    text-align: center;
+    margin-top: 8px;
+  }
+
+  .mayself-heading p {
+    line-height: 28px;
+    font-size: 12px;
+    margin-top: 6px;
+    width: 100%;
+    text-align: center;
+    padding: 0 10px;
+  }
+
+  .myself-content h4 {
+    font-size: 17px;
+    line-height: 2;
+    text-align: center;
+    margin-top: 8px;
+  }
+
+  .myself-content p {
+    line-height: 28px;
+    font-size: 12px;
+    margin-top: 6px;
+    width: 100%;
+    text-align: center;
+    padding: 0 10px;
+  }
+
+  .myself-pragarp p {
+    line-height: 28px;
+    font-size: 12px;
+    margin-top: 6px;
+    width: 100%;
+    text-align: center;
+    padding: 0 10px;
+  }
+
+  .myself-pragarp h4 {
+    font-size: 20px;
+    margin-top: 20px;
+    text-align: center;
+  }
+
+  .invest h5 {
+    font-size: 14px;
+    line-height: 20px;
+    margin-left: 8px;
+  }
+
+  .circle {
+    width: 20px;
+    height: 20px;
+  }
+
+  .invest-margin {
+    margin-left: 22px;
+  }
+
+  .myself-btn {
+    margin-top: 30px;
+  }
+
+  /* myself section end for max 480px */
+
+  /* package section start for max 480px */
+
+  .packege-card-header h2 {
+    padding-top: 9px;
+    padding-left: 0px;
+    font-size: 22px;
+    text-align: center;
+  }
+
+  .packege-card-header ::after {
+    width: 110%;
+    max-width: 110%;
+  }
+
+  .package-item-bottom h2 {
+    font-size: 22px;
+    text-align: center;
+  }
+
+  .package-item-bottom p {
+    text-align: center;
+    margin: 0 auto;
+  }
+
+  /* Package section end for max 480px  */
+
+  /* payment section start for max 480px */
+
+  .payment-padding {
+    padding-left: 0 !important;
+  }
+
+  .payment-card-header h2 {
+    padding-top: 25px;
+    padding-left: 19px;
+    font-size: 24px;
+  }
+
+  .order-wrapper {
+    padding: 0 3px;
+    margin-top: 12px;
+  }
+  .form-email,
+  .form-password,
+  .remember-left span,
+  label {
+    margin-top: 6px;
+  }
+
+  .submit-btn button {
+    padding: 19px 20px;
+  }
+
+  .order-wrapper {
+    padding: 0 3px;
+  }
+
+  .apply-btn a {
+    padding: 11px 12px;
+    margin-top: 6px;
+  }
+
+  .all-total-amount p {
+    font-size: 22px;
+  }
+
+  .total-amount {
+    padding: 0 6px;
+  }
+
+  .subtotal {
+    padding-left: 6px;
+    padding-right: 6px;
+  }
+
+  /* payment section end for max 480px */
+}
+
+@media (max-width: 425px) {
+  .show-on-425 {
+    display: block !important;
+  }
+
+  .hide-on-425 {
+    display: none !important;
+  }
+
+  .stunning-img-section .vector-dot {
+    display: none;
+  }
+
+  .breadcumd-box {
+    flex-direction: column;
+    gap: 5px;
+  }
+
+  .about-mazicai-section .section-title h2,
+  .stand-out-section .section-title h2,
+  .left-content h2 {
+    font-size: 20px;
+  }
+
+  .accordion-body,
+  .accordion-box .accordion-button.collapsed {
+    padding: 1rem;
+  }
+
+  .accordion-box .accordion-button {
+    padding: 1rem 1rem 0;
+  }
+
+  .header .h1-large {
+    font-size: 24px;
+  }
+
+  .card-box .card-body-content h4 {
+    font-size: 1rem;
+  }
+
+  .about-mazicai-section .section-title p,
+  .stand-out-section .section-title p {
+    line-height: 1.4;
+  }
+
+  .card-box .card-body-content p {
+    font-size: 14px;
+    line-height: 1.4;
+  }
+
+  .payment-offer .offer-box {
+    font-size: 14px;
+  }
+
+  .swiper-card .card-body h3 a {
+    font-size: 18px;
+    line-height: 1.4;
+    height: 50px;
+    margin-bottom: 10px;
+  }
+
+  .swiper-card .card-body p {
+    line-height: 1.4;
+    height: 70px;
+  }
+
+  .blog-section .h2-large {
+    font-size: 24px;
+  }
+
+  .view-btn {
+    padding: 1rem 20px;
+  }
+
+  .stand-out-section .section-title h2 {
+    font-size: 28px;
+  }
+}
+/* full homepage responsive for max-width: 380px */
+
+@media (max-width: 380px) {
+  .podcast-section #light {
+    left: 140vw;
+  }
+  .poadcast-img video {
+    width: 25rem;
+  }
+  .empower-section #light {
+    top: 50%;
+    left: 135vw;
+  }
+  .empower-content video {
+    width: 25rem;
+  }
+  /* about page starts */
+  .details-top {
+    width: 32rem;
+  }
+  .financial-advisor h2 {
+    width: 34rem;
+    font-size: 2.3rem;
+  }
+  .financial-advisor p {
+    max-width: 32rem;
+  }
+  .professional-qualification,
+  .experience,
+  .achievements,
+  .my-book,
+  .podcast,
+  .feature {
+    width: 29rem;
+    margin: auto;
+  }
+  .about-me-title p {
+    width: 30.6rem;
+  }
+  /* anout page ends */
+  .left-top-content {
+    width: 100%;
+  }
+  .header .h1-large {
+    font-size: 2.2rem;
+    max-width: 28.3rem;
+    line-height: 3.4rem;
+  }
+  p,
+  .p-large {
+    font-size: 1.4rem;
+    line-height: 2.8rem;
+  }
+  .get-start-btn {
+    font-size: 1.3rem;
+    line-height: 1.4rem;
+    padding: 1.8rem 1.2rem;
+  }
+  .header {
+    padding-top: 12.3rem !important;
+    padding-bottom: 2.3rem !important;
+  }
+  .right-content-box {
+    text-align: center;
+  }
+  .right-content-box p {
+    font-size: 16px;
+    line-height: 190%;
+  }
+  .header .text-container p {
+    margin-bottom: 20px;
+  }
+  .decoration-star {
+    z-index: -1;
+  }
+  .h2-large,
+  .right-content-box h2 {
+    font-size: 23px;
+  }
+  .service-content-box {
+    text-align: center;
+  }
+  .service-card-body h4,
+  .service-card-body h4 a {
+    line-height: 17px;
+    margin-bottom: 0;
+  }
+  .service-card-body p {
+    min-height: 0;
+  }
+  .down-arrow-img img {
+    max-width: 40px;
+  }
+  section,
+  .section,
+  .stand-out-section,
+  .stunning-img-section,
+  .chatgpt-section,
+  .body-section {
+    padding: 50px 11px 0px;
+  }
+  .service-content h2 {
+    font-size: 23px;
+    letter-spacing: 0.02em;
+    margin-bottom: 0;
+    margin-top: 4rem;
+  }
+  .mobile-img {
+    margin-bottom: 10px;
+  }
+  .blog-details .blog-img,
+  .section-title {
+    margin-bottom: 50px;
+  }
+  .following-section .section-title h2 {
+    margin-bottom: 2rem;
+  }
+  .following-section p,
+  .p-large {
+    font-size: 1.4rem;
+    line-height: 3rem;
+  }
+
+  .following-section .section-title p {
+    width: 100%;
+  }
+  .setp-body-content h4 {
+    margin-bottom: 0rem;
+    margin-top: 1rem;
+  }
+  .choose-plan {
+    padding: 0;
+    margin-top: 5rem;
+    margin-bottom: -15rem;
+  }
+  .choose-plan-title h2 {
+    width: 30rem;
+  }
+  .testomonial-content {
+    background-color: #4ac7aa;
+    text-align: center;
+    padding: 30px 0;
+  }
+  .carousel-inner img {
+    width: 45px;
+  }
+  .testomonial-heading h5 {
+    font-size: 19px;
+    margin-top: 20px;
+    line-height: 31px;
+  }
+  .testomonial-heading p {
+    width: 90%;
+  }
+  .testomonial-left-image p {
+    width: 25rem;
+    margin: 0 auto;
+  }
+
+  .counter-section {
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+  .counter-section h2 {
+    font-size: 13rem;
+    line-height: 16rem;
+  }
+  .counter-section p {
+    font-size: 2.3rem;
+    left: 52%;
+  }
+  .counter-section .project::after {
+    height: 0;
+  }
+  .counter-section .project::before {
+    height: 0;
+  }
+  .counter-section .offices::before {
+    height: 0;
+  }
+  #financial {
+    top: 5rem;
+  }
+  #financial {
+    background-position: center center;
+  }
+  .financial-heading {
+    font-size: 3.1rem;
+    line-height: 5rem;
+    width: 100%;
+  }
+  .blog-section {
+    margin: 7rem 0;
+  }
+  .footer-left-content p {
+    font-size: 1.6rem;
+    margin-bottom: 3rem;
+    max-width: 100%;
+  }
+  .footer-left-content p,
+  .footer-left-content,
+  .footer-menu {
+    margin-bottom: 3.8rem;
+  }
+  /* empower section stats */
+
+  #empower {
+    padding-left: 11px;
+    padding-top: 5rem;
+    margin-top: 3rem;
+    padding-bottom: 2rem;
+  }
+
+  .empower-heading {
+    margin-top: 0;
+  }
+
+  .empower-wrapper {
+    padding-left: 10px;
+  }
+
+  .empower-heading h2 {
+    font-size: 2.6rem;
+    width: 100%;
+    line-height: 4rem;
+  }
+
+  .empower-heading p {
+    font-size: 1.4rem;
+  }
+  /* empower ends */
+  /* choose right plan starts */
+  .choose-plan-title {
+    margin-bottom: 3rem;
+  }
+  /* choose right plan ends */
+  /* blog page starts */
+  .blog-bg .swiper-card-img.blog-page-card-img {
+    height: 14.5rem;
+  }
+  .pagination {
+    font-size: 1.2rem;
+  }
+  .pagination .page-links:link,
+  .pagination .page-links:visited {
+    width: 2rem;
+    height: 2rem;
+  }
+  .subscribe {
+    flex-direction: column;
+  }
+  .subs-email {
+    width: 100%;
+  }
+  .subs-btn {
+    width: 100%;
+  }
+  .subs-btn button {
+    font-size: 1.4rem;
+    width: 100%;
+  }
+  /* blog page ends */
+
+  /* full blog details responsive for max-width: 380px start */
+
+  .about-us {
+    margin-top: 107px;
+    padding: 21px 0;
+  }
+
+  .about-title {
+    font-size: 2rem;
+    line-height: 3rem;
+  }
+
+  .children-section {
+    padding-top: 30px;
+  }
+
+  .children-heading h2 {
+    font-size: 2rem;
+    line-height: 1rem;
+    margin-bottom: 2rem;
+  }
+
+  .challenge-title h2 {
+    font-size: 2rem;
+    line-height: 1rem;
+    margin-top: 2rem;
+  }
+
+  .qusetion-list li {
+    font-size: 1.6rem;
+  }
+
+  .challege-content p {
+    font-size: 1.6rem;
+    line-height: 3rem;
+  }
+
+  .literacy-title h2 {
+    font-size: 2rem;
+    margin-top: 2rem;
+  }
+
+  .literacy-content {
+    margin-top: 1.2rem;
+  }
+
+  .literacy-content p {
+    font-size: 1.6rem;
+    line-height: 2.1;
+    width: 100%;
+  }
+
+  .litercy-link a {
+    font-size: 1.6rem;
+    line-height: 2.4rem;
+  }
+
+  .acount-title h2 {
+    font-size: 2rem;
+    line-height: 3rem;
+    margin-top: 2rem;
+    margin-bottom: 1.6rem;
+  }
+
+  .acount-content p {
+    font-size: 1.6rem;
+    line-height: 2.9rem;
+    width: 100%;
+  }
+
+  .planning-title h2 {
+    font-size: 2rem;
+    margin-top: 2rem;
+    margin-bottom: 1.6rem;
+  }
+
+  .planning-content p {
+    font-size: 1.6rem;
+    line-height: 2.9rem;
+    width: 100%;
+  }
+
+  .author-section {
+    margin-top: 0;
+  }
+
+  .author-right {
+    padding-right: 0;
+    padding-left: 0;
+  }
+
+  .author-heading h2 {
+    margin-top: 2rem;
+    font-size: 2rem;
+  }
+
+  .author-heading h3 {
+    font-size: 2rem;
+    line-height: 2rem;
+  }
+
+  .social-icons {
+    gap: 11px;
+  }
+
+  .author-content p {
+    line-height: 2.9rem;
+  }
+
+  .comment-section {
+    margin-top: 0rem;
+  }
+
+  .comment-heading h2 {
+    font-size: 2rem;
+    margin-bottom: 2rem;
+  }
+
+  .from-left {
+    margin-bottom: 2.8rem;
+    padding: 13px 10px;
+  }
+
+  .from-right {
+    height: 218px;
+  }
+
+  .comment-btn button {
+    padding: 18px 35px;
+    margin-top: 2rem;
+    margin-left: 0;
+  }
+
+  /* Blog section */
+
+  .blog-section {
+    margin: 2rem 0;
+  }
+  .margin-sm {
+    margin-top: 1rem;
+  }
+  /* Bolg section end */
+
+  /* full blog-details responsive for max width :380 end */
+
+  /* About gaim plan responsive for max width: 380 start */
+
+  .gaim-plan-section {
+    padding-top: 50px;
+  }
+
+  .gaim-plan-heading h2 {
+    font-size: 2rem;
+    line-height: 4rem;
+    margin-top: 2rem;
+  }
+
+  .gaim-plan-content p {
+    font-size: 1.6rem;
+    line-height: 2.6rem;
+    margin-top: 1rem;
+  }
+
+  .gain-plan-list {
+    margin-top: 1.4rem;
+  }
+
+  .gain-plan-list p {
+    font-size: 1.5rem;
+  }
+
+  .recommendation-heading h2 {
+    font-size: 2rem;
+    line-height: 3rem;
+  }
+
+  .recommendation-section {
+    padding-top: 28px;
+  }
+
+  .recommendation-list {
+    margin-top: 1.4rem;
+  }
+
+  .recommendations-content p {
+    width: 100%;
+    margin-top: 1rem;
+  }
+
+  .recommendation-list p {
+    font-size: 1.5rem;
+  }
+
+  .recommendations-pragrap p {
+    margin: 1rem 0;
+    width: 100%;
+  }
+
+  .recommendation-image {
+    margin-top: 3rem;
+  }
+
+  .question-section {
+    padding-top: 36px;
+  }
+
+  .question-header h2 {
+    font-size: 2rem;
+    line-height: 3rem;
+    margin-bottom: 1rem;
+  }
+
+  .question-header p {
+    font-size: 1.6rem;
+    width: 100%;
+    margin-bottom: 2.8rem;
+  }
+
+  .accordion-button:not(.collapsed) {
+    font-size: 1.6rem;
+    line-height: 2.6rem;
+  }
+
+  .accordion-button {
+    font-size: 1.6rem;
+    line-height: 2.6rem;
+  }
+
+  #schedule a {
+    font-size: 13px;
+    line-height: 20px;
+    padding: 5px 40px;
+  }
+
+  .podcast-section {
+    padding-top: 20px;
+    padding-bottom: 70px;
+  }
+
+  .poadcast-img {
+    margin-top: 3rem;
+  }
+
+  /* About gaim plan responsive for max width:380 end */
+  /* myself section start responsive for max width:380 */
+
+  .myself-res {
+    padding: 0 10px !important;
+  }
+
+  .myself-pragarp {
+    padding: 0 10px !important;
+  }
+
+  .myself-card-header h2 {
+    padding-top: 3px;
+    padding-left: 0px;
+    padding-right: 0px;
+    font-size: 17px;
+  }
+
+  .myself-card-header ::after {
+    width: 117%;
+  }
+
+  .mayself-heading h3 {
+    font-size: 20px;
+    line-height: 2;
+    text-align: center;
+    margin-top: 8px;
+  }
+
+  .mayself-heading p {
+    line-height: 28px;
+    font-size: 12px;
+    margin-top: 6px;
+    width: 100%;
+    text-align: center;
+  }
+
+  .myself-content h4 {
+    font-size: 17px;
+    line-height: 2;
+    text-align: center;
+    margin-top: 8px;
+  }
+
+  .myself-content p {
+    line-height: 28px;
+    font-size: 12px;
+    margin-top: 6px;
+    width: 100%;
+    text-align: center;
+  }
+
+  .myself-pragarp p {
+    line-height: 28px;
+    font-size: 12px;
+    margin-top: 6px;
+    width: 100%;
+    text-align: center;
+  }
+
+  .myself-pragarp h4 {
+    font-size: 20px;
+    margin-top: 20px;
+    text-align: center;
+  }
+
+  .invest h5 {
+    font-size: 14px;
+    line-height: 20px;
+    margin-left: 8px;
+  }
+
+  .circle {
+    width: 20px;
+    height: 20px;
+  }
+
+  .invest-margin {
+    margin-left: 18px;
+  }
+
+  /* myself section end responsive for max width:380 end */
+
+  /* package section start for max 380px */
+
+  .packege-card-header h2 {
+    padding-top: 9px;
+    padding-left: 0px;
+    font-size: 22px;
+    text-align: center;
+  }
+
+  .packege-card-header ::after {
+    width: 113%;
+    max-width: 113%;
+  }
+
+  .package-item-bottom h2 {
+    font-size: 22px;
+    text-align: center;
+  }
+
+  .package-item-bottom p {
+    text-align: center;
+    margin: 0 auto;
+  }
+
+  /* Package section end for max 380px  */
+
+  /* payment section start for max 380px */
+
+  .payment-padding {
+    padding-left: 0 !important;
+  }
+
+  .payment-card-header h2 {
+    padding-top: 25px;
+    padding-left: 19px;
+    font-size: 24px;
+  }
+
+  .order-wrapper {
+    padding: 0 3px;
+    margin-top: 12px;
+  }
+  .form-email,
+  .form-password,
+  .remember-left span,
+  label {
+    margin-top: 6px;
+  }
+
+  .submit-btn button {
+    padding: 19px 20px;
+  }
+
+  .order-wrapper {
+    padding: 0 3px;
+  }
+
+  .apply-btn a {
+    padding: 11px 12px;
+    margin-top: 6px;
+  }
+
+  .all-total-amount p {
+    font-size: 22px;
+  }
+  /* payment section end for max 380px */
+}
+
+@media (min-width: 350px) {
+  .choose-plan {
+    margin-bottom: 0;
+  }
+}
+
+/* =====================
+   desktop
+   min-width: 768px;
+   max-width: 1024px;
+
+===================== */
+
+@media (min-width: 768px) and (max-width: 1024px) {
+}
+
+/* =====================
+
+   Tablets
+   min-width: 640px;
+   max-width: 767px;
+
+===================== */
+
+@media (min-width: 640px) and (max-width: 767px) {
+}
+
+/* =====================
+
+   Small Devices
+   min-width: 320px;
+   max-width: 479px;
+
+===================== */
+
+@media (min-width: 320px) and (max-width: 479px) {
+}
